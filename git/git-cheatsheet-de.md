@@ -1,6 +1,10 @@
+[![OliverKlee](../pictures/Logo.svg)](https://www.oliverklee.de/)
+
 # Git-Cheatsheet
 
-## Git-Installation
+
+
+## 🟡 Git-Installation
 
 ### Mac git-Installation
 Wer homebrew benutzt:
@@ -12,25 +16,22 @@ brew install git
 Ansonsten kann ein inoffizeller Mac Installer benutzt werden:
 http://sourceforge.net/projects/git-osx-installer/
 
-## Bash/Linux-Kommandozeile
 
-Zeige Verzeichnisinhalt: `ls` 
+## 🟡 Bash/Linux-Kommandozeile
+| Aktion                                                | Kommando             |
+|-------------------------------------------------------| -------------------- |
+| Zeige Verzeichnisinhalt                               | `ls`                 |
+| In Verzeichnis `<dir>` wechseln                       | `cd <dir>`           |
+| Zum letzten Verzeichnis wechseln                      | `cd -`               |
+| Pfad des aktuellen Verzeichnisses anzeigen            | `pwd`                |
+| Verzeichnis erstellen                                 | `mkdir <dir>`        |
+| Datei löschen                                         | `rm <file>`          |
+| Datei verschieben oder umbenennen                     | `mv <file1> <file2>` |
+| Datei anlegen oder Dateizeit auf aktuelle Zeit setzen | `touch <file>`       |
 
-In Verzeichnis \<dir\> wechseln: `cd <dir>`
- 
-Zum letzten Verzeichnis wechseln: `cd - `
 
-Pfad des aktuellen Verzeichnis anzeigen: `pwd`
 
-Verzeichnis erstellen: `mkdir <dir>`
-
-Datei löschen: `rm <file>`
-
-Datei verschieben oder umbenennen: `mv <file1> <file2>`
-
-Datei anlegen oder Dateizeit auf aktuelle Zeit setzen: `touch <file>`
-
-## Git-Konfiguration
+## 🟡 Git-Konfiguration
 Denkt daran, die Platzhalter durch euren echten vollen Namen und eure
 Mailadresse zu ersetzen.
 
@@ -63,17 +64,17 @@ kennt und verwendet.
 Wichtig: Solltet Ihr nachträglich Einstellungen für `autocrlf` oder `core.eol`
 ändern, muss das lokale repository neu ausgecheckt werden.
 
-## Lokales Arbeiten
+## 🟡 Lokales Arbeiten
 Den Zustand des lokalen Repositories anzeigen: `git status`
 
-## Schadensbegrenzung
+## 🟡 Schadensbegrenzung
 ### Teil 1
 _to do_
 
 ### Teil 2
 _to do_
 
-## Branches
+## 🟡 Branches
 
 alle lokalen Branches anzeigen: `git branch`
 
@@ -83,7 +84,7 @@ einen Branch löschen, der keine ungemergten Änderungen hat:
 einen Branch löschen (auch mit ungemergten Änderungen):
 `git branch -D <branchname>`
 
-## Rebase und Konflikte
+## 🟡 Rebase und Konflikte
 
 Einen Branch mit einem anderen rebasen:
 
@@ -98,21 +99,19 @@ _to do_
 
 Rebase ausführen: `git rebase -i HEAD~<Anzahl der Schritte>`
 
-```
-Commands in File-Edit Mode:
-
-p, pick = Commit verwenden
-r, reword = Commit verwenden und Commit Log ändern
-e, edit = Commit verwenden und den Commit selbst ändern Log und Inhalt
-s, squash = Commit verwenden und mit dem vorhergehende Commit verschmelzen
-f, fixup = wie "squash" und Log verwerfen
-x, exec = shell commando ausführen - restliche zeile nach x, exec
-d, drop = Commit löschen
-```
+| Commands in File-Edit Mode | Beschreibung                                               |
+|----------------------------|------------------------------------------------------------|
+| `p`, pick                  | Commit verwenden                                           |
+| `r`, reword                | Commit verwenden und Commit-Log ändern                    |
+| `e`, edit                  | Commit verwenden und den Commit selbst ändern (Log & Inhalt) |
+| `s`, squash                | Commit verwenden und mit vorhergehendem Commit verschmelzen |
+| `f`, fixup                 | wie squash, Commit-Log verwerfen                           |
+| `x`, exec                  | Shell-Command ausführen – restliche Zeile nach `x, exec`  |
+| `d`, drop                  | Commit löschen                                             |
 
 Datei speichern und schließen
 
-## .gitignore
+## 🟡 .gitignore
 Verzeichnis `.idea/` im Hauptverzeichnis ignorieren: `/.idea/`
 
 alle `*.backup`-Dateien in allen Verzeichnissen ignorieren: `*.backup`
@@ -134,29 +133,25 @@ automatisch erzeugt wird, sodass wir da keine `.gitignore` benötigen):
 !/private/typo3conf/l10n
 ```
 
-## Verteiltes Arbeiten
+## 🟡 Verteiltes Arbeiten
 _to do_
 
-## Arbeiten mit GitHub im selben Projekt
+## 🟡 Arbeiten mit GitHub im selben Projekt
 _to do_
 
-## Tags
+## 🟡 Tags
 
-alle lokalen Tags anzeigen: `git tag`
+| Aktion                        | Kommando                                      |
+|-------------------------------|-----------------------------------------------|
+| Alle lokalen Tags anzeigen     | `git tag`                                     |
+| Annotierten Tag erzeugen       | `git tag -a <tagname> -m "<Commit message>"` |
+| GPG-signierten Tag erzeugen    | `git tag -s <tagname> -m "<Commit message>"` |
+| Alle Tags auf remote pushen    | `git push --tags`                             |
+| Commits und anschließend Tags pushen | `git push --follow-tags`               |
+| Tag lokal löschen              | `git tag -d <tagname>`                        |
+| Tag remote löschen             | `git push origin :<tagname>`                  |
 
-annotierten Tag erzeugen: `git tag -a <tagname> -m "<Commit message>"`
-
-GPG-signierten Tag erzeugen: `git tag -s <tagname> -m "<Commit message>"`
-
-alle Tags auf remote pushen: `git push --tags`
-
-Commits und anschließend Tags pushen: `git push --follow-tags`
-
-Tag lokal löschen: `git tag -d <tagname>`
-
-Tag remote von origin löschen: `git push origin :<tagname>` 
-
-## Open-Source-Arbeit mit Forks
+## 🟡 Open-Source-Arbeit mit Forks
 
 ### Mit dem Fork verbinden
 in Github auf das Original-Repository wechseln und über den Button **Fork** einen eigenen Fork anlegen.
@@ -194,3 +189,5 @@ prüfen, ob der Remote-Branch noch existiert: `git remote prune origin`
 den lokalen Branch löschen `git branch -D <Branch Name>`
 
 den lokalen Master mit Upstream synchronisieren und auf euren Fork pushen
+
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
