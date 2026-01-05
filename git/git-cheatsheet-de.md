@@ -3,6 +3,7 @@
 ## Git-Installation
 
 ### Mac git-Installation
+
 Wer homebrew benutzt:
 
 ```bash
@@ -14,10 +15,10 @@ http://sourceforge.net/projects/git-osx-installer/
 
 ## Bash/Linux-Kommandozeile
 
-Zeige Verzeichnisinhalt: `ls` 
+Zeige Verzeichnisinhalt: `ls`
 
 In Verzeichnis \<dir\> wechseln: `cd <dir>`
- 
+
 Zum letzten Verzeichnis wechseln: `cd - `
 
 Pfad des aktuellen Verzeichnis anzeigen: `pwd`
@@ -31,6 +32,7 @@ Datei verschieben oder umbenennen: `mv <file1> <file2>`
 Datei anlegen oder Dateizeit auf aktuelle Zeit setzen: `touch <file>`
 
 ## Git-Konfiguration
+
 Denkt daran, die Platzhalter durch euren echten vollen Namen und eure
 Mailadresse zu ersetzen.
 
@@ -64,13 +66,17 @@ Wichtig: Solltet Ihr nachträglich Einstellungen für `autocrlf` oder `core.eol`
 ändern, muss das lokale repository neu ausgecheckt werden.
 
 ## Lokales Arbeiten
+
 Den Zustand des lokalen Repositories anzeigen: `git status`
 
 ## Schadensbegrenzung
+
 ### Teil 1
+
 _to do_
 
 ### Teil 2
+
 _to do_
 
 ## Branches
@@ -113,12 +119,14 @@ d, drop = Commit löschen
 Datei speichern und schließen
 
 ## .gitignore
+
 Verzeichnis `.idea/` im Hauptverzeichnis ignorieren: `/.idea/`
 
 alle `*.backup`-Dateien in allen Verzeichnissen ignorieren: `*.backup`
 
 Alle Dateien in `/var/log/` ignorieren bis auf die Datei `.gitkeep` dort (damit
 das Verzeichnis trotzdem im Git-Repository vorhanden ist):
+
 ```
 /var/log/*
 !/var/log/.gitkeep
@@ -127,6 +135,7 @@ das Verzeichnis trotzdem im Git-Repository vorhanden ist):
 Alles in `/private/` und `/private/typo3conf/` ignorieren, aber das
 Verzeichnis `/private/typo3conf/l10n` nicht ignorieren (das von TYPO3
 automatisch erzeugt wird, sodass wir da keine `.gitignore` benötigen):
+
 ```
 /private/*
 !/private/typo3conf
@@ -135,9 +144,11 @@ automatisch erzeugt wird, sodass wir da keine `.gitignore` benötigen):
 ```
 
 ## Verteiltes Arbeiten
+
 _to do_
 
 ## Arbeiten mit GitHub im selben Projekt
+
 _to do_
 
 ## Tags
@@ -154,11 +165,12 @@ Commits und anschließend Tags pushen: `git push --follow-tags`
 
 Tag lokal löschen: `git tag -d <tagname>`
 
-Tag remote von origin löschen: `git push origin :<tagname>` 
+Tag remote von origin löschen: `git push origin :<tagname>`
 
 ## Open-Source-Arbeit mit Forks
 
 ### Mit dem Fork verbinden
+
 in Github auf das Original-Repository wechseln und über den Button **Fork** einen eigenen Fork anlegen.
 
 den Fork lokal clonen: `git clone <fork-repository> (<zielverzeichnis>)`
@@ -168,6 +180,7 @@ in das Zielverzeichnis wechseln: `cd <zielverzeichnis>`
 mit dem Original-Repository verknüpfen: `git remote add upstream <Repository-URL>`
 
 ### Den lokalen Master mit Upstream synchronisieren und auf euren Fork pushen
+
 zum Master wechseln: `git checkout master`
 
 den Fork mit dem Original abgleichen: `git fetch upstream`
@@ -175,15 +188,19 @@ den Fork mit dem Original abgleichen: `git fetch upstream`
 den lokalen Master abgleichen: `git rebase upstream/master`
 
 ### Einen Pull-Request bearbeiten
+
 die Änderungen im bestehenden Commit veröffentlichen: `git commit --amend`
 
 die Änderungen auf den Fork verschieben (force): `git push -f`
 
 **Wichtig**
-in der Beschreibung `Fixes #<Ticketnummer>` angeben, damit beim Merge das Ticket automatisch geschlossen werden kann. Üblicherweise steht die Zeile am Ende der Beschreibung.
+in der Beschreibung `Fixes #<Ticketnummer>` angeben, damit beim Merge das Ticket automatisch geschlossen werden kann.
+Üblicherweise steht die Zeile am Ende der Beschreibung.
 
 ### Nach dem geschlossenen Pull-Request das eigene Fork wieder updaten
+
 online in der Maske den Remote-Branch löschen
+
 1. zum geschlossenen Pull-Request wechseln
 1. den Branch löschen
 
