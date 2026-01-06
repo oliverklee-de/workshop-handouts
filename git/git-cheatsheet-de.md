@@ -2,7 +2,7 @@
 
 # Git-Cheatsheet
 
-## Git-Installation
+## 💻 Git-Installation
 
 ### Mac git-Installation
 
@@ -15,7 +15,7 @@ brew install git
 Ansonsten kann ein inoffizeller Mac Installer benutzt werden:
 http://sourceforge.net/projects/git-osx-installer/
 
-## Bash/Linux-Kommandozeile
+## 🐧 Bash/Linux-Kommandozeile
 
 | Aktion                                                | Kommando             |
 |-------------------------------------------------------| -------------------- |
@@ -28,7 +28,7 @@ http://sourceforge.net/projects/git-osx-installer/
 | Datei verschieben oder umbenennen                     | `mv <file1> <file2>` |
 | Datei anlegen oder Dateizeit auf aktuelle Zeit setzen | `touch <file>`       |
 
-## Git-Konfiguration
+## ⚙️ Git-Konfiguration
 
 Denkt daran, die Platzhalter durch euren echten vollen Namen und eure
 Mailadresse zu ersetzen.
@@ -62,11 +62,11 @@ kennt und verwendet.
 Wichtig: Solltet Ihr nachträglich Einstellungen für `autocrlf` oder `core.eol`
 ändern, muss das lokale repository neu ausgecheckt werden.
 
-## Lokales Arbeiten
+## 📝 Lokales Arbeiten
 
 Den Zustand des lokalen Repositories anzeigen: `git status`
 
-## Schadensbegrenzung
+## 🛠️ Schadensbegrenzung
 
 ### Teil 1
 
@@ -76,7 +76,7 @@ _to do_
 
 _to do_
 
-## Branches
+## 🌿 Branches
 
 alle lokalen Branches anzeigen: `git branch`
 
@@ -86,7 +86,7 @@ einen Branch löschen, der keine ungemergten Änderungen hat:
 einen Branch löschen (auch mit ungemergten Änderungen):
 `git branch -D <branchname>`
 
-## Rebase und Konflikte
+## 🔀 Rebase und Konflikte
 
 Einen Branch mit einem anderen rebasen:
 
@@ -113,7 +113,7 @@ Rebase ausführen: `git rebase -i HEAD~<Anzahl der Schritte>`
 
 Datei speichern und schließen
 
-## .gitignore
+## 🚫 .gitignore
 
 Verzeichnis `.idea/` im Hauptverzeichnis ignorieren: `/.idea/`
 
@@ -138,15 +138,15 @@ automatisch erzeugt wird, sodass wir da keine `.gitignore` benötigen):
 !/private/typo3conf/l10n
 ```
 
-## Verteiltes Arbeiten
+## 🌐 Verteiltes Arbeiten
 
 _to do_
 
-## Arbeiten mit GitHub im selben Projekt
+## 🐙 Arbeiten mit GitHub im selben Projekt
 
 _to do_
 
-## Tags
+## 🏷️ Tags
 
 | Aktion                               | Kommando                                     |
 |--------------------------------------|----------------------------------------------|
@@ -158,7 +158,7 @@ _to do_
 | Tag lokal löschen                    | `git tag -d <tagname>`                       |
 | Tag remote löschen                   | `git push origin :<tagname>`                 |
 
-## Open-Source-Arbeit mit Forks
+## 🌐 Open-Source-Arbeit mit Forks
 
 ### Mit dem Fork verbinden
 
