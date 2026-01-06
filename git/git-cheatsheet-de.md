@@ -12,9 +12,6 @@ Wer homebrew benutzt:
 brew install git
 ```
 
-Ansonsten kann ein inoffizeller Mac Installer benutzt werden:
-http://sourceforge.net/projects/git-osx-installer/
-
 ## 🐧 Bash/Linux-Kommandozeile
 
 | Aktion                                                | Kommando             |
