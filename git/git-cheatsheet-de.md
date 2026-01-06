@@ -1,3 +1,5 @@
+[![oliverklee.de](/images/Logo.svg)](https://www.oliverklee.de/)
+
 # Git-Cheatsheet
 
 ## Git-Installation
