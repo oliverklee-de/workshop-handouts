@@ -195,7 +195,7 @@ online in der Maske den Remote-Branch löschen
 1. zum geschlossenen Pull-Request wechseln
 1. den Branch löschen
 
-zum Master wechseln: `git checkout main`
+zum Main wechseln: `git checkout main`
 
 prüfen, ob der Remote-Branch noch existiert: `git remote prune origin`
 
