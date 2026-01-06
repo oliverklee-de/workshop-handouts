@@ -170,13 +170,13 @@ in das Zielverzeichnis wechseln: `cd <zielverzeichnis>`
 
 mit dem Original-Repository verknüpfen: `git remote add upstream <Repository-URL>`
 
-### Den lokalen Master mit Upstream synchronisieren und auf euren Fork pushen
+### Den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
 
-zum Master wechseln: `git checkout master`
+zum Main wechseln: `git checkout main`
 
 den Fork mit dem Original abgleichen: `git fetch upstream`
 
-den lokalen Master abgleichen: `git rebase upstream/master`
+den lokalen Main abgleichen: `git rebase upstream/main`
 
 ### Einen Pull-Request bearbeiten
 
@@ -195,10 +195,10 @@ online in der Maske den Remote-Branch löschen
 1. zum geschlossenen Pull-Request wechseln
 1. den Branch löschen
 
-zum Master wechseln: `git checkout master`
+zum Main wechseln: `git checkout main`
 
 prüfen, ob der Remote-Branch noch existiert: `git remote prune origin`
 
 den lokalen Branch löschen `git branch -D <Branch Name>`
 
-den lokalen Master mit Upstream synchronisieren und auf euren Fork pushen
+den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
