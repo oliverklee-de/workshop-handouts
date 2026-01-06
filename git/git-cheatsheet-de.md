@@ -15,21 +15,16 @@ http://sourceforge.net/projects/git-osx-installer/
 
 ## Bash/Linux-Kommandozeile
 
-Zeige Verzeichnisinhalt: `ls`
-
-In Verzeichnis \<dir\> wechseln: `cd <dir>`
-
-Zum letzten Verzeichnis wechseln: `cd - `
-
-Pfad des aktuellen Verzeichnis anzeigen: `pwd`
-
-Verzeichnis erstellen: `mkdir <dir>`
-
-Datei löschen: `rm <file>`
-
-Datei verschieben oder umbenennen: `mv <file1> <file2>`
-
-Datei anlegen oder Dateizeit auf aktuelle Zeit setzen: `touch <file>`
+| Aktion                                                | Kommando             |
+|-------------------------------------------------------| -------------------- |
+| Zeige Verzeichnisinhalt                               | `ls`                 |
+| In Verzeichnis `<dir>` wechseln                       | `cd <dir>`           |
+| Zum letzten Verzeichnis wechseln                      | `cd -`               |
+| Pfad des aktuellen Verzeichnisses anzeigen            | `pwd`                |
+| Verzeichnis erstellen                                 | `mkdir <dir>`        |
+| Datei löschen                                         | `rm <file>`          |
+| Datei verschieben oder umbenennen                     | `mv <file1> <file2>` |
+| Datei anlegen oder Dateizeit auf aktuelle Zeit setzen | `touch <file>`       |
 
 ## Git-Konfiguration
 
@@ -104,17 +99,15 @@ _to do_
 
 Rebase ausführen: `git rebase -i HEAD~<Anzahl der Schritte>`
 
-```
-Commands in File-Edit Mode:
-
-p, pick = Commit verwenden
-r, reword = Commit verwenden und Commit Log ändern
-e, edit = Commit verwenden und den Commit selbst ändern Log und Inhalt
-s, squash = Commit verwenden und mit dem vorhergehende Commit verschmelzen
-f, fixup = wie "squash" und Log verwerfen
-x, exec = shell commando ausführen - restliche zeile nach x, exec
-d, drop = Commit löschen
-```
+| Commands in File-Edit Mode | Beschreibung                                                 |
+|----------------------------|--------------------------------------------------------------|
+| `p`, pick                  | Commit verwenden                                             |
+| `r`, reword                | Commit verwenden und Commit-Log ändern                       |
+| `e`, edit                  | Commit verwenden und den Commit selbst ändern (Log & Inhalt) |
+| `s`, squash                | Commit verwenden und mit vorhergehendem Commit verschmelzen  |
+| `f`, fixup                 | wie squash, Commit-Log verwerfen                             |
+| `x`, exec                  | Shell-Command ausführen – restliche Zeile nach `x, exec`     |
+| `d`, drop                  | Commit löschen                                               |
 
 Datei speichern und schließen
 
@@ -153,19 +146,15 @@ _to do_
 
 ## Tags
 
-alle lokalen Tags anzeigen: `git tag`
-
-annotierten Tag erzeugen: `git tag -a <tagname> -m "<Commit message>"`
-
-GPG-signierten Tag erzeugen: `git tag -s <tagname> -m "<Commit message>"`
-
-alle Tags auf remote pushen: `git push --tags`
-
-Commits und anschließend Tags pushen: `git push --follow-tags`
-
-Tag lokal löschen: `git tag -d <tagname>`
-
-Tag remote von origin löschen: `git push origin :<tagname>`
+| Aktion                               | Kommando                                     |
+|--------------------------------------|----------------------------------------------|
+| Alle lokalen Tags anzeigen           | `git tag`                                    |
+| Annotierten Tag erzeugen             | `git tag -a <tagname> -m "<Commit message>"` |
+| GPG-signierten Tag erzeugen          | `git tag -s <tagname> -m "<Commit message>"` |
+| Alle Tags auf remote pushen          | `git push --tags`                            |
+| Commits und anschließend Tags pushen | `git push --follow-tags`                     |
+| Tag lokal löschen                    | `git tag -d <tagname>`                       |
+| Tag remote löschen                   | `git push origin :<tagname>`                 |
 
 ## Open-Source-Arbeit mit Forks
 
