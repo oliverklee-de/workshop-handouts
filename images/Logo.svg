@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" id="logo-oliverklee" x="0px" y="0px" viewBox="0 0 202.89998 55" xml:space="preserve"
+     sodipodi:docname="logo-oliverklee-without-additional-text.svg" inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+     width="202.89999" height="55" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+     xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs190"/>
+    <sodipodi:namedview
+        id="namedview188"
+        pagecolor="#ffffff"
+        bordercolor="#000000"
+        borderopacity="0.25"
+        inkscape:showpageshadow="2"
+        inkscape:pageopacity="0.0"
+        inkscape:pagecheckerboard="0"
+        inkscape:deskcolor="#d1d1d1"
+        showgrid="false"
+        inkscape:zoom="2.3910291"
+        inkscape:cx="372.22466"
+        inkscape:cy="27.394062"
+        inkscape:window-width="1920"
+        inkscape:window-height="1024"
+        inkscape:window-x="0"
+        inkscape:window-y="0"
+        inkscape:window-maximized="1"
+        inkscape:current-layer="corners"/>
+    <style type="text/css" id="style73">
+        .st0{ fill: #FFBA00; }
+        .st3{ fill: #0399CD; }
+    </style>
+    <g id="corners">
+        <polygon class="st0" points="0,36.8 0,55 18.2,55 18.2,48.5 6.5,48.5 6.5,36.8 " id="polygon75"/>
+        <polygon class="st0" points="0,18.2 0,0 18.2,0 18.2,6.5 6.5,6.5 6.5,18.2 " id="polygon77"/>
+        <polygon class="st0" points="534.7,48.5 546.5,48.5 546.5,36.8 552.9,36.8 552.9,55 534.7,55 " id="polygon79"
+                 transform="translate(-350)"/>
+        <polygon class="st0" points="534.7,6.5 546.5,6.5 546.5,18.2 552.9,18.2 552.9,0 534.7,0 " id="polygon81"
+                 transform="translate(-350)"/>
+    </g>
+
+    <g id="logo">
+        <path class="st3"
+              d="m 20,30.3 c 0,-5.2 0.6,-9.5 6.7,-9.5 6.1,0 6.7,4.3 6.7,9.5 0,7.8 -3,8.9 -6.7,8.9 C 23,39.2 20,38.1 20,30.3 Z M 30.4,29 c 0,-4.8 -1.5,-5.9 -3.7,-5.9 -2.2,0 -3.7,1.1 -3.7,5.9 0,5.7 0.7,7.8 3.7,7.8 3,0 3.7,-2 3.7,-7.8 z"
+              id="path160"/>
+        <path class="st3" d="M 40.8,38.8 H 37.9 V 13.6 h 2.9 z" id="path162"/>
+        <path class="st3" d="m 45.5,13.6 h 3.2 v 3.1 h -3.2 z m 3,25.2 H 45.6 V 21.2 h 2.9 z" id="path164"/>
+        <path class="st3" d="m 51.5,21.2 h 3.2 l 4,15 h 0.1 l 4.3,-15 h 3 l -5.5,17.7 h -3.7 z" id="path166"/>
+        <path class="st3"
+              d="m 71.8,30.9 c 0,4.9 1.3,5.9 3.6,5.9 2,0 3,-1.6 3.1,-3.4 h 3.2 c 0,3.9 -2.5,5.7 -6.2,5.7 -3.7,0 -6.7,-1.1 -6.7,-8.9 0,-5.2 0.6,-9.5 6.7,-9.5 5,0 6.3,2.8 6.3,8.6 v 1.5 h -10 z m 6.9,-2.1 c 0,-5.1 -1.4,-5.8 -3.5,-5.8 -1.8,0 -3.3,0.9 -3.4,5.8 z"
+              id="path168"/>
+        <path class="st3"
+              d="m 89.5,23.8 v 0 c 1.3,-2.7 2.7,-3 5.5,-3 v 3 c -0.2,0 -0.5,-0.1 -0.8,-0.1 -0.2,0 -0.5,-0.1 -0.8,-0.1 -3.2,0 -4,2.4 -4,4.8 V 38.8 H 86.5 V 21.2 h 2.9 v 2.6 z"
+              id="path170"/>
+        <path class="st3"
+              d="M 101.1,38.8 H 98.2 V 13.6 h 2.9 v 15.2 h 0.1 l 5.4,-7.6 h 3.5 l -5.9,7.6 6.9,10.1 h -3.6 L 101.2,29 h -0.1 z"
+              id="path172"/>
+        <path class="st3" d="m 116.5,38.8 h -2.9 V 13.6 h 2.9 z" id="path174"/>
+        <path class="st3"
+              d="m 124.3,30.9 c 0,4.9 1.3,5.9 3.6,5.9 2,0 3,-1.6 3.1,-3.4 h 3.2 c 0,3.9 -2.5,5.7 -6.2,5.7 -3.7,0 -6.7,-1.1 -6.7,-8.9 0,-5.2 0.6,-9.5 6.7,-9.5 5,0 6.3,2.8 6.3,8.6 v 1.5 h -10 z m 6.9,-2.1 c 0,-5.1 -1.4,-5.8 -3.5,-5.8 -1.8,0 -3.3,0.9 -3.4,5.8 z"
+              id="path176"/>
+        <path class="st3"
+              d="m 141.8,30.9 c 0,4.9 1.3,5.9 3.6,5.9 2,0 3,-1.6 3.1,-3.4 h 3.2 c 0,3.9 -2.5,5.7 -6.2,5.7 -3.7,0 -6.7,-1.1 -6.7,-8.9 0,-5.2 0.6,-9.5 6.7,-9.5 5,0 6.3,2.8 6.3,8.6 v 1.5 h -10 z m 6.9,-2.1 c 0,-5.1 -1.4,-5.8 -3.5,-5.8 -1.8,0 -3.3,0.9 -3.4,5.8 z"
+              id="path178"/>
+        <path class="st3" d="m 157.9,38.8 h -2.3 v -2.6 h 2.3 z" id="path180"/>
+        <path class="st3"
+              d="m 168,20.8 h 2 v 18 h -2 v -1.5 0 c -0.7,1.2 -1.6,1.8 -2.9,1.8 -2,0 -4.1,-0.8 -4.1,-6.3 0,-3.1 0.1,-6.8 4.2,-6.8 1.2,0 2.1,0.5 2.8,1.5 h 0.1 v -6.7 z m -2.4,6.8 c -2.2,0 -2.5,1.7 -2.5,5.1 0,1.9 0,4.6 2.6,4.6 2.3,0 2.3,-2.8 2.3,-5.4 0,-1.6 -0.1,-4.3 -2.4,-4.3 z"
+              id="path182"/>
+        <path class="st3"
+              d="m 175.8,33.2 c 0,3.5 0.9,4.2 2.5,4.2 1.4,0 2.1,-1.1 2.2,-2.4 h 2.2 c 0,2.8 -1.7,4.1 -4.4,4.1 -2.7,0 -4.8,-0.8 -4.8,-6.4 0,-3.7 0.4,-6.7 4.8,-6.7 3.6,0 4.5,2 4.5,6.1 v 1.1 z m 5,-1.6 c 0,-3.7 -1,-4.1 -2.5,-4.1 -1.3,0 -2.4,0.6 -2.4,4.1 z"
+              id="path184"/>
+    </g>
+</svg>
