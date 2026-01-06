@@ -172,7 +172,7 @@ mit dem Original-Repository verknüpfen: `git remote add upstream <Repository-UR
 
 ### Den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
 
-zum Master wechseln: `git checkout main`
+zum Main wechseln: `git checkout main`
 
 den Fork mit dem Original abgleichen: `git fetch upstream`
 
