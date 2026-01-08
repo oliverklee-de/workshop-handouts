@@ -3,6 +3,7 @@
 [zum Cheatsheet](composer-cheatsheet-de.md)
 
 ## Installation
+
 1. Prüft, dass PHP lokal installiert ist und im Pfad liegt, und welche Version
    installiert ist.
 1. Geht auf https://getcomposer.org/ und schaut, was beim Neuladen der Seite
@@ -16,17 +17,19 @@
 1. Lasst ein Composer-Update laufen.
 
 ## Grundlagen
+
 1. Erzeugt interaktiv ein neues Composer-Stand-Alone-Projekt.
-   - Überlegt euch dafür einen Vendor-Namen (entweder für eure Firma oder euch
-     als Person).
-   - Nehmt `workshop` als Produktnamen.
-   - Nehmt `GPL-3.0+` als Lizenz.
-   - An dieser Steller braucht das Projekt noch keine Abhängkeiten zu haben.
+    - Überlegt euch dafür einen Vendor-Namen (entweder für eure Firma oder euch
+      als Person).
+    - Nehmt `workshop` als Produktnamen.
+    - Nehmt `GPL-3.0+` als Lizenz.
+    - An dieser Steller braucht das Projekt noch keine Abhängkeiten zu haben.
 1. Schaut euch die generierte `composer.json` an.
 1. Schaut euch im Verzeichnis `vendor/` um.
 1. Legt eine Datei `bin/start.php` an, die "Hello world!" ausgibt.
 
 ## Packagist
+
 1. Geht auf https://packagist.org/ und schaut, welche Pakete besonders beliebt
    sind.
 1. Schaut euch die Abhängigkeiten und die Beschreibung von `pelago/emogrifier`
@@ -41,6 +44,7 @@
 1. Findet heraus, welche Pakete der User "oliverklee" maintaint.
 
 ## Abhängigkeiten
+
 1. Fügt das Paket `phpunit/php-timer` als Abhängigkeit hinzu.
 1. Schaut euch die generierte `composer.lock` an und schaut euch im Verzeichnis
    `vendor/` um.
@@ -78,22 +82,26 @@
    untereinander an und versucht, diese Struktur zu verstehen.
 
 ## Autoloading und Verzeichnisstruktur
+
 1. Schaut euch die empfohlene
    [PHP-Projekt-Verzeichnisstruktur](https://github.com/php-pds/skeleton) an.
 1. Überlegt euch einen Vendor- und Produkt-PHP-Namespace für euer
    Übungsprojekt.
-1. Legt im Unter-Namespace `Service` eine Klasse `Greeter` an, die lediglich eine
+1. Legt im Unter-Namespace `Service` eine Klasse `Greeter` an, die lediglich
+   eine
    statische Methode `greet` hat, und verschiebt das Hello-World dahin. Benutzt
    diese Methode dann in der `start.php` und alles.
-1. Verschafft euch einen Überblick, welche [PSR-Standards](https://www.php-fig.org/psr/)
+1. Verschafft euch einen Überblick,
+   welche [PSR-Standards](https://www.php-fig.org/psr/)
    es gibt und was die einzelnen Standards grob abdecken.
 1. Lest euch die folgenden Standards durch:
-   - PSR-4
-   - PSR-1
-   - PSR-2
-   - PSR-12
+    - PSR-4
+    - PSR-1
+    - PSR-2
+    - PSR-12
 
 ## Globale Installation
+
 1. Findet heraus, wie ihre Composer-Pakete global installiert.
 1. Installiert das Paket `friendsofphp/php-cs-fixer` global.
 1. Kopiert euch bestehendes Projekt lokal auf die Platte.
@@ -103,10 +111,12 @@
 1. Installiert euch global das Paket `phpstan/phpstan`.
 1. Fügt für eurer Projekt eine `composer.json` hinzu und tragt dort [Autoloading
    per Classmap](https://getcomposer.org/doc/04-schema.md#classmap) ein.
-1. Schaut euch die [Dokumentation zu PhpStan](https://github.com/phpstan/phpstan)
+1. Schaut euch
+   die [Dokumentation zu PhpStan](https://github.com/phpstan/phpstan)
    an und prüft euren Code mit PhpStan mit verschiedenen Rule-Levels.
 
 ## Weitere Befehle
+
 1. Erzeugt ein neues Projekt aus `phplist/base-distribution` und schaut an, was
    dabei herauskommt.
 1. Erzeugt ein neues Projekt aus `helhum/typo3-distribution` und erzeugt dabei
@@ -118,11 +128,13 @@
 1. Überprüft, ob die `composer.json` valide ist.
 
 ## Composer und Git
+
 1. Schaut euch die .gitgnore der beiden Projekte an, die ihr mit
    `composer create-project` erzeugt habt, und versteht, warum welche Sachen
    ignoriert bzw. nicht ignoriert werden.
 
 ## Weitere Repositories
+
 1. Legt in eurem Übungsproject ein Verzeichnis `packages/greeter` an und legt
    in diesem Verzeichnis ein Composer-Paket an. Verschiebt die Greeter-Klasse
    dorthin, bindet das Verzeichnis `packages` als
@@ -134,6 +146,7 @@
    darüber.
 
 ## Composer-Scripts
+
 1. Führt in dem phpList-Distribution-Projekt das Composer-Skript
    `list-modules` aus.
 1. Schaut euch die [Composer-Skripte von Emogrifier
@@ -141,14 +154,14 @@
    an.
 1. Installiert in eurem Projekt, über das ihr `php-cs-fixer` habt laufen
    lassen, die folgenden Pakete als Dev-Abhängigkeiten:
-   - PHP_CodeSniffer
-   - PHPMD
-   - PHPStan
+    - PHP_CodeSniffer
+    - PHPMD
+    - PHPStan
 1. Richtet euch Composer-Scripte mit diesen Namen ein, die euren Code checken:
-   - `ci:static:lint` (ruft `php -l` auf eurem Sourcecode auf)
-   - `ci:static:sniff`
-   - `ci:static:phpmd`
-   - `ci:static:phpstan`
+    - `ci:static:lint` (ruft `php -l` auf eurem Sourcecode auf)
+    - `ci:static:sniff`
+    - `ci:static:phpmd`
+    - `ci:static:phpstan`
 1. Richtet euch ein Composer-Script `ci:static` ein, das die anderen drei
    Scripts nacheinander aufruft.
 1. Schaut euch in dem phpList-Distribution-Projekt das Composer-Script

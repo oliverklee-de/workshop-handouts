@@ -78,20 +78,20 @@ Hello, Oliver!
    Werte mit dem nicht-strikten Vergleichsoperator `==` vergleicht und in einer
    Tabelle die Ergebnisse "yes" bzw. "no" ausgibt. Benutzt `var_export`, um
    die Werte mit erkennbaren Typen zu erhalten.
-   - 0
-   - 0.0
-   - "0.0"
-   - 1
-   - 1.0
-   - "0"
-   - "1"
-   - "true"
-   - false
-   - true
-   - null
-   - 42
-   - "42"
-   - "42 cups"
+    - 0
+    - 0.0
+    - "0.0"
+    - 1
+    - 1.0
+    - "0"
+    - "1"
+    - "true"
+    - false
+    - true
+    - null
+    - 42
+    - "42"
+    - "42 cups"
 
 ## OOP
 
@@ -227,7 +227,8 @@ behebt.
 1. Testet, dass die Exceptions tatsächlich geworfen werden.
 1. Wrappt den Code in `console` in ein catch und gebt eine etwaige Exception
    schön auf der Konsole aus.
-1. Schreibt eine eigene Exception-Klasse `ZipReaderException extends RuntimeException`
+1. Schreibt eine eigene Exception-Klasse
+   `ZipReaderException extends RuntimeException`
    und benutzt diese beim Lesen der ZIP-Datei.
 1. Lest euch den PSR-3-Standard durch.
 1. Baut die Exceptions so um, dass ihr den Symfony-Console-Logger nutzt. Lasst
