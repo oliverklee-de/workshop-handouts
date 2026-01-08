@@ -3,12 +3,14 @@
 ## Sociological and psychological concepts
 
 ### Diversity
+
 [Wikipedia article](https://en.wikipedia.org/wiki/Diversity_(politics))
 
 A community or group is considered _diverse_ if its members are different,
 particularly concerning the following aspects:
 
-* gender identity ((cis-)male, (cis-)female, genderqueer/nonbinary, transgender …)
+* gender identity ((cis-)male, (cis-)female, genderqueer/nonbinary,
+  transgender …)
 * sexual orientation (heterosexual, homosexual, bisexual, asexual …)
 * enthnicity (black, hispanic, asian, caucasian …)
 * age (young, old …)
@@ -26,6 +28,7 @@ There are studies that show that diverse team are more productive and create
 products that appeal to (and work for) larger target groups.
 
 ### Inclusion
+
 [Wikipedia article](https://en.wikipedia.org/wiki/Inclusion_(disability_rights))
 
 _Inclusion_ means removing barriers and providing help for people with
@@ -33,10 +36,9 @@ disabilities (in the narrower sense), removing barriers for people that
 are underrepresented in a group/event, and even making the
 group/community/event openly welcoming to underrepresented groups so
 they can integrate easily.
- 
+
 Being inclusive is necessary for improving diversity (although not sufficient
 in itself).
-
 
 ### *phobia
 
@@ -55,6 +57,7 @@ members of certain identity groups. (There is no really clear border between
 [article about systemic sexism](https://justeducationlearning.wordpress.com/2011/12/04/sexism/)
 
 #### Hostile and benevolent sexism
+
 [Wikipedia article](https://en.wikipedia.org/wiki/Ambivalent_sexism)
 
 _Sexism_ (the notion that persons of one gender are less worth than other
@@ -66,12 +69,14 @@ that members of a certain gender need to be protected etc. because they are
 weaker, nobler etc.
 
 #### Ableism/abelism
+
 [Wikipedia article](https://en.wikipedia.org/wiki/Ableism)
 
 Ableism refers to the notion that able-bodied persons are "normal" and that the
 needs of disabled people are not important.
 
 ### Microaggressions
+
 [Wikipedia article](https://en.wikipedia.org/wiki/Microaggression)
 
 Microaggressions ("death by a thousand cuts") describes a situation where a
@@ -83,6 +88,7 @@ The persons committing the microaggressions usually see their behavior as
 "no big deal".
 
 ### Cognitive biases
+
 [Wikipedia article](https://en.wikipedia.org/wiki/List_of_cognitive_biases)
 [Online self-test for biases](https://implicit.harvard.edu/implicit/takeatest.html)
 
@@ -90,6 +96,7 @@ A _cognitive bias_ refers to tendencies to see a situation in a non-subjective
 or non-rational way without being aware of this.
 
 #### Confirmation bias
+
 [Wikipedia article](https://en.wikipedia.org/wiki/Confirmation_bias)
 
 _Confirmation bias_ refers to the tendency to recognize facts that confirm
@@ -97,6 +104,7 @@ one's opinion while ignoring facts that contradict one's opinion in order to
 avoid cognitive dissonance.
 
 ### Privilege
+
 [Wikipedia article](https://en.wikipedia.org/wiki/Privilege_(social_inequality))
 [articla about privilege](https://medium.com/@ninavizz/systemic-sexism-101-2297043ac6c1)
 
@@ -117,7 +125,6 @@ people and dismissing their experiences.
 The statement "check your privilege" is used to remind someone that they might
 be privileged, and that other people might have had vastly different
 experiences.
-
 
 ## Things that hinder diversity
 
@@ -148,12 +155,12 @@ This is an incomplete list of examples.
 * [have required fields for ZIP code, street name and street number](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
 * [have only the two options "male" and "female" for the gender](https://medium.com/@malpinder/falsehoods-programmers-believe-about-gender-cf1a55085ab2)
 
-
 ## What other communities/events do
 
 This also is an incomplete list of examples.
 
-* having a [community/project code of conduct](https://contributor-covenant.org/)
+* having
+  a [community/project code of conduct](https://contributor-covenant.org/)
 * having a [code of conduct for events](http://confcodeofconduct.com/),
   put it on the conference website
   **and enforce it**
