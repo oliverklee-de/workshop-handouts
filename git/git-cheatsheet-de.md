@@ -54,7 +54,7 @@ git config --global rebase.autostash true
 git config --global rerere.enabled true
 ```
 
-`Core.eol=lf` sorgt dafür, dass GIT den Unix-Linefeed als Default-Zeilenumbruch
+`core.eol=lf` sorgt dafür, dass GIT den Unix-Linefeed als Default-Zeilenumbruch
 kennt und verwendet, sofern keine `.gitattributes`-Regel etwas anderes festlegt.
 
 Wichtig: Solltet Ihr nachträglich Einstellungen für `autocrlf` oder `core.eol`
