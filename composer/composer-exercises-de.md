@@ -1,6 +1,6 @@
 # Übungen zu Composer
 
-[zum Cheatsheet](composer-cheatsheet-de.md)
+[zum Cheatsheet](../cheatsheets/composer-cheatsheet-de.md)
 
 ## Installation
 1. Prüft, dass PHP lokal installiert ist und im Pfad liegt, und welche Version
