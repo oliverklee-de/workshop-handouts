@@ -42,8 +42,8 @@ git config --global user.email "jane.doe@example.com"
 ```bash
 git config --global core.autocrlf false
 git config --global core.eol lf
-git config --global branch.autosetupmerge always
-git config --global branch.autosetuprebase always
+git config --global branch.autoSetupMerge always
+git config --global branch.autoSetupRebase always
 git config --global color.ui auto
 git config --global core.precomposeunicode true
 git config --global core.quotepath false
@@ -54,7 +54,7 @@ git config --global rerere.enabled true
 ```
 
 `Core.eol=lf` sorgt dafür, dass GIT den Unix-Linefeed als Default-Zeilenumbruch
-kennt und verwendet.
+kennt und verwendet, sofern keine `.gitattributes`-Regel etwas anderes festlegt.
 
 Wichtig: Solltet Ihr nachträglich Einstellungen für `autocrlf` oder `core.eol`
 ändern, muss das lokale repository neu ausgecheckt werden.
