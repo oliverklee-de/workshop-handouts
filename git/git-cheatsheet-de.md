@@ -204,19 +204,23 @@ Das Subject einer Commit-Message sollten im Englischen den Imperativ benutzen
 Der Body einer Commit-Message sollte das Warum eines Commits beschreiben
 (fall nötig).
 
-**Hinweis:** Je nach Projekt können im Subject auch andere Codes für die Art der
-Änderung stehen.<br>
-Bei Projekten von [oliverklee.de](oliverklee.de) verwenden wir die folgenden
-Codes (angelehnt an den TYPO3-Core):
+### Projektspezifische Commit-Message-Konventionen
 
-- `[FEATURE]` (bzw. GitHub-Label **enhancement**): *Wenn neue Funktionalität
-  hinzugefügt wird*
-- `[BUGFIX]` + GitHub-Label **bug**: *Wenn etwas repariert wird, das vorher
-  kaputt war*
-- `[CLEANUP]` *Wenn nur Code aufgeräumt wird (z. B. Auto-Formatierung)*
-- `[TASK]` *Alles andere*
+Je nach Projekt oder Organisation können im Subject Codes für die Art der
+Änderung stehen.
 
-PS: Weiterführende Links zu Best Practices:
+Bei Projekten von [oliverklee.de](oliverklee.de) verwenden wir beispielsweise
+die folgenden Codes (angelehnt an die Konventionen des TYPO3-Core):
+
+- `[FEATURE]` (plus GitHub-Label **enhancement**): wenn neue Funktionalität
+  hinzugefügt wird
+- `[BUGFIX]` (plus GitHub-Label **bug**): wenn etwas repariert wird, das vorher
+  kaputt war
+- `[CLEANUP]`: wenn nur Code aufgeräumt wird (z. B. Auto-Formatierung)
+- `[DOCS]`: für Änderungen an der Dokumentation
+- `[TASK]`: alles andere
+
+### Weiterführende Links zu Best-Practices für Commit-Messages
 
 - https://cbea.ms/git-commit/
 - https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
