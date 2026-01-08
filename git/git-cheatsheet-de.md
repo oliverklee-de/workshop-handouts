@@ -54,11 +54,11 @@ git config --global rebase.autostash true
 git config --global rerere.enabled true
 ```
 
-`Core.eol=lf` sorgt dafür, dass GIT den Unix-Linefeed als Default-Zeilenumbruch
-kennt und verwendet, sofern keine `.gitattributes`-Regel etwas anderes festlegt.
+`Core.eol=lf` sorgt dafür, dass GIT den Unix-Linefeed als Default-Zeilenumbruch kennt und verwendet, <br>
+sofern keine `.gitattributes`-Regel etwas anderes festlegt.<br>
 
-Wichtig: Solltet Ihr nachträglich Einstellungen für `autocrlf` oder `core.eol`
-ändern, muss das lokale repository neu ausgecheckt werden.
+Wichtig: Solltet Ihr nachträglich Einstellungen für `autocrlf` oder `core.eol` ändern, <br>
+muss das lokale repository neu ausgecheckt werden.
 
 ## 📝 Lokales Arbeiten
 
@@ -107,17 +107,17 @@ Verzeichnis `.idea/` im Hauptverzeichnis ignorieren: `/.idea/`
 
 alle `*.backup`-Dateien in allen Verzeichnissen ignorieren: `*.backup`
 
-Alle Dateien in `/var/log/` ignorieren bis auf die Datei `.gitkeep` dort (damit
-das Verzeichnis trotzdem im Git-Repository vorhanden ist):
+Alle Dateien in `/var/log/` ignorieren bis auf die Datei `.gitkeep` dort <br>
+(damit das Verzeichnis trotzdem im Git-Repository vorhanden ist):
 
 ```
 /var/log/*
 !/var/log/.gitkeep
 ```
 
-Alles in `/private/` und `/private/typo3conf/` ignorieren, aber das
-Verzeichnis `/private/typo3conf/l10n` nicht ignorieren (das von TYPO3
-automatisch erzeugt wird, sodass wir da keine `.gitignore` benötigen):
+Alles in `/private/` und `/private/typo3conf/` ignorieren, <br>
+aber das Verzeichnis `/private/typo3conf/l10n` nicht ignorieren <br>
+(das von TYPO3 automatisch erzeugt wird, sodass wir da keine `.gitignore` benötigen): <br>
 
 ```
 /private/*
@@ -173,7 +173,8 @@ die Änderungen im bestehenden Commit veröffentlichen: `git commit --amend`
 die Änderungen auf den Fork verschieben (force): `git push -f`
 
 **Wichtig**
-in der Beschreibung `Fixes #<Ticketnummer>` angeben, damit beim Merge das Ticket automatisch geschlossen werden kann.
+in der Beschreibung `Fixes #<Ticketnummer>` angeben, damit beim Merge das Ticket <br>
+automatisch geschlossen werden kann.
 Üblicherweise steht die Zeile am Ende der Beschreibung.
 
 ### Nach dem geschlossenen Pull-Request das eigene Fork wieder updaten
