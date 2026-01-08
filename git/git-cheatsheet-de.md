@@ -79,11 +79,7 @@ Den Zustand des lokalen Repositories anzeigen: `git status`
 Einen Branch mit einem anderen rebasen:
 
 1. einen Branch A auschecken: `git switch <branchnameA>`
-1. den ausgecheckten Branch A mit einem anderen Branch B rebasen: `git rebase <branchnameB>`
-
-### Konflikte
-
-_to do_
+2. den ausgecheckten Branch A mit einem anderen Branch B rebasen: `git rebase <branchnameB>`
 
 ### Interaktiver Rebase
 
