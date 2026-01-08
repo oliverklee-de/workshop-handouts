@@ -189,3 +189,25 @@ prüfen, ob der Remote-Branch noch existiert: `git remote prune origin`
 den lokalen Branch löschen `git branch -D <Branch Name>`
 
 den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
+
+## ✉️ Commit-Message
+*     git commit -a
+
+**Hinweis:** Bei Projekten von [oliverklee.de](oliverklee.de) verwenden wir die folgenden Codes (angelehnt an den TYPO3-Core).
+Je nach Projekt können im Subject auch Codes für die Art der Änderung stehen.
+
+- Code im Subject für die Art der Änderung: `[FEATURE]`, `[TASK]`, `[BUGFIX]` oder `[CLEANUP]`
+    - Wenn neue Funktionalität hinzugefügt wird: `[FEATURE]` (bzw. GitHub-Label **enhancement**)
+    - Wenn etwas repariert wird, das vorher kaputt war: `[BUGFIX]` + GitHub-Label **bug**
+    - Wenn nur Code aufgeräumt wird (z. B. Auto-Formatierung): `[CLEANUP]`
+    - Alles andere ist ein `[TASK]`
+- Imperativ im Subject verwenden
+- Im Body bei Bedarf das **Warum** beschreiben
+
+PS: Weiterführende Links zu Best Practices:
+
+    - https://cbea.ms/git-commit/
+    - https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
+    - https://www.gitkraken.com/learn/git/best-practices/git-commit-message
+    - https://docs.typo3.org/m/typo3/guide-contributionworkflow/main/en-us/Appendix/CommitMessage.html
+    - https://github.com/oliverklee/ext-seminars/commit/1df376e2f57b680383e886cfa3201e4de2fc5479
