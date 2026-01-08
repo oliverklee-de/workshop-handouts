@@ -15,7 +15,7 @@ brew install git
 ## 🐧 Bash/Linux-Kommandozeile
 
 | Aktion                                                | Kommando             |
-|-------------------------------------------------------| -------------------- |
+|-------------------------------------------------------|----------------------|
 | Zeige Verzeichnisinhalt                               | `ls`                 |
 | In Verzeichnis `<dir>` wechseln                       | `cd <dir>`           |
 | Zum letzten Verzeichnis wechseln                      | `cd -`               |
@@ -79,7 +79,8 @@ Den Zustand des lokalen Repositories anzeigen: `git status`
 Einen Branch mit einem anderen rebasen:
 
 1. einen Branch A auschecken: `git switch <branchnameA>`
-2. den ausgecheckten Branch A mit einem anderen Branch B rebasen: `git rebase <branchnameB>`
+2. den ausgecheckten Branch A mit einem anderen Branch B rebasen:
+   `git rebase <branchnameB>`
 
 ### Interaktiver Rebase
 
@@ -146,13 +147,15 @@ automatisch erzeugt wird, sodass wir da keine `.gitignore` benötigen):
 
 ### Mit dem Fork verbinden
 
-in Github auf das Original-Repository wechseln und über den Button **Fork** einen eigenen Fork anlegen.
+in Github auf das Original-Repository wechseln und über den Button **Fork**
+einen eigenen Fork anlegen.
 
 den Fork lokal clonen: `git clone <fork-repository> (<zielverzeichnis>)`
 
 in das Zielverzeichnis wechseln: `cd <zielverzeichnis>`
 
-mit dem Original-Repository verknüpfen: `git remote add upstream <Repository-URL>`
+mit dem Original-Repository verknüpfen:
+`git remote add upstream <Repository-URL>`
 
 ### Den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
 
@@ -169,7 +172,8 @@ die Änderungen im bestehenden Commit veröffentlichen: `git commit --amend`
 die Änderungen auf den Fork verschieben (force): `git push -f`
 
 **Wichtig**
-in der Beschreibung `Fixes #<Ticketnummer>` angeben, damit beim Merge das Ticket automatisch geschlossen werden kann.
+in der Beschreibung `Fixes #<Ticketnummer>` angeben, damit beim Merge das Ticket
+automatisch geschlossen werden kann.
 Üblicherweise steht die Zeile am Ende der Beschreibung.
 
 ### Nach dem geschlossenen Pull-Request das eigene Fork wieder updaten
@@ -188,22 +192,28 @@ den lokalen Branch löschen `git branch -D <Branch Name>`
 den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
 
 ## ✉️ Commit-Message
+
 *     git commit -a
 
 - Imperativ im Subject verwenden
 - Im Body bei Bedarf das **Warum** beschreiben
 
-**Hinweis:** Je nach Projekt können im Subject auch andere Codes für die Art der Änderung stehen.<br>
-Bei Projekten von [oliverklee.de](oliverklee.de) verwenden wir die folgenden Codes (angelehnt an den TYPO3-Core):
-- `[FEATURE]` (bzw. GitHub-Label **enhancement**): *Wenn neue Funktionalität hinzugefügt wird*
-- `[BUGFIX]` + GitHub-Label **bug**: *Wenn etwas repariert wird, das vorher kaputt war*
+**Hinweis:** Je nach Projekt können im Subject auch andere Codes für die Art der
+Änderung stehen.<br>
+Bei Projekten von [oliverklee.de](oliverklee.de) verwenden wir die folgenden
+Codes (angelehnt an den TYPO3-Core):
+
+- `[FEATURE]` (bzw. GitHub-Label **enhancement**): *Wenn neue Funktionalität
+  hinzugefügt wird*
+- `[BUGFIX]` + GitHub-Label **bug**: *Wenn etwas repariert wird, das vorher
+  kaputt war*
 - `[CLEANUP]` *Wenn nur Code aufgeräumt wird (z. B. Auto-Formatierung)*
 - `[TASK]` *Alles andere*
 
 PS: Weiterführende Links zu Best Practices:
 
-    - https://cbea.ms/git-commit/
-    - https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
-    - https://www.gitkraken.com/learn/git/best-practices/git-commit-message
-    - https://docs.typo3.org/m/typo3/guide-contributionworkflow/main/en-us/Appendix/CommitMessage.html
-    - https://github.com/oliverklee/ext-seminars/commit/1df376e2f57b680383e886cfa3201e4de2fc5479
+- https://cbea.ms/git-commit/
+- https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
+- https://www.gitkraken.com/learn/git/best-practices/git-commit-message
+- https://docs.typo3.org/m/typo3/guide-contributionworkflow/main/en-us/Appendix/CommitMessage.html
+- https://github.com/oliverklee/ext-seminars/commit/1df376e2f57b680383e886cfa3201e4de2fc5479
