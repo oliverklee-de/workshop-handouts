@@ -63,25 +63,15 @@ Wichtig: Solltet Ihr nachträglich Einstellungen für `autocrlf` oder `core.eol`
 
 Den Zustand des lokalen Repositories anzeigen: `git status`
 
-## 🛠️ Schadensbegrenzung
-
-### Teil 1
-
-_to do_
-
-### Teil 2
-
-_to do_
-
 ## 🌿 Branches
 
-alle lokalen Branches anzeigen: `git branch`
-
-einen Branch löschen, der keine ungemergten Änderungen hat:
-`git branch -d <branchname>`
-
-einen Branch löschen (auch mit ungemergten Änderungen):
-`git branch -D <branchname>`
+| Aktion                                                             | Git-Befehl                       |
+|--------------------------------------------------------------------|----------------------------------|
+| Alle lokalen Branches anzeigen                                     | `git branch`                     |
+| Einen lokalen Branch löschen, der keine ungemergten Änderungen hat | `git branch -d <branchname>`     |
+| Einen Branch lokalen löschen (auch mit ungemergten Änderungen)     | `git branch -D <branchname>`     |
+| Remote-Branch löschen                                              | `git push origin :<branchname> ` |
+| Verwaiste Remote-Referenzen aufräumen                              | `git remote prune origin`        |
 
 ## 🔀 Rebase und Konflikte
 
@@ -135,13 +125,13 @@ automatisch erzeugt wird, sodass wir da keine `.gitignore` benötigen):
 !/private/typo3conf/l10n
 ```
 
-## 🌐 Verteiltes Arbeiten
+## 📬 Workflow für PR
 
-_to do_
-
-## 🐙 Arbeiten mit GitHub im selben Projekt
-
-_to do_
+| Aktion                                                                                 | Kommando                           |
+|----------------------------------------------------------------------------------------|------------------------------------|
+| Neuen Branch von `main` erstellen und wechseln                                         | `git switch -c <neuerbranch> main` |
+| Alle Änderungen committen *(`-a` fügt geänderte Dateien hinzu, **aber keine Neuen!**)* | `git commit -a`                    |
+| Den neuen Branch auf Remote pushen und als Tracking-Branch setzen                      | `git push -u origin <neuerbranch>` |
 
 ## 🏷️ Tags
 
