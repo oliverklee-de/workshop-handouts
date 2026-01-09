@@ -3,27 +3,33 @@
 ## Project structure
 
 ### Directory structure
+
 - [example](https://github.com/phpList/core)
 - [reference](https://github.com/php-pds/skeleton)
 
 ### Composer
+
 - [Packagist](https://packagist.org/)
 - [example](https://github.com/phpList/base-distribution/blob/master/composer.json)
 - [reference](https://getcomposer.org/doc/04-schema.md)
 
 ### PHP namespaces
+
 - [example](https://github.com/phpList/core/blob/master/src/Domain/Model/Messaging/SubscriberList.php)
 - [reference](https://secure.php.net/manual/language.namespaces.php)
 
 ### PSR-4 autoloading
+
 - [example](https://github.com/phpList/core/blob/master/composer.json)
 - [reference](https://www.php-fig.org/psr/psr-4/)
 
 ## Symfony console
+
 - [reference and example for the console component](https://symfony.com/doc/current/components/console.html)
 - [reference and example for building a console command](https://symfony.com/doc/current/components/console/single_command_tool.html)
 
 ## Strict typing
+
 - [example for type declarations](https://github.com/phpList/core/blob/master/src/Domain/Repository/Identity/AdministratorTokenRepository.php)
 - [example for nullable types and void functions](https://git.typo3.org/Packages/TYPO3.CMS.git/blob/HEAD:/typo3/sysext/core/Tests/Unit/TypoScript/Parser/TypoScriptParserTest.php)
 - [example for strict mode](https://github.com/phpList/core/blob/master/src/Domain/Model/Messaging/SubscriberList.php)
@@ -35,6 +41,7 @@
 - [reference for var_export](https://secure.php.net/manual/function.var-export.php)
 
 ### More Symfony console
+
 - [Blog post 1 about Symfony 4.1 console improvements](https://symfony.com/blog/new-in-symfony-4-1-console-improvements)
 - [Blog post 2 about Symfony 4.1 console improvements](https://symfony.com/blog/new-in-symfony-4-1-advanced-console-output)
 - [Links to additional console resources](https://symfony.com/doc/current/components/console.html#learn-more)
@@ -44,6 +51,7 @@
 - [Slides for refactoring console applications](https://speakerdeck.com/el_stoffel/better-console-applications?slide=52)
 
 ## OOP
+
 - [example for method visibility](https://github.com/phpList/core/blob/master/src/Core/Bootstrap.php)
 - [example for abstract classes](https://github.com/phpList/core/blob/master/src/Domain/Repository/AbstractRepository.php)
 - [example for interfaces](https://github.com/phpList/core/blob/master/src/Domain/Model/Interfaces/CreationDate.php)
@@ -59,19 +67,23 @@
 ## Build-in classes
 
 ### ZipArchive
+
 - [example for reading and writing](https://github.com/oliverklee/ext-csv_to_openimmo/blob/master/Classes/Service/Zipper.php)
 - [reference](https://secure.php.net/ziparchive)
 
 ### DOMDocument
+
 - [example for writing, part 1](https://github.com/oliverklee/ext-csv_to_openimmo/blob/master/Classes/Service/OpenImmoBuilder.php)
 - [example for writing, part 2](https://github.com/oliverklee/ext-csv_to_openimmo/blob/master/Classes/Service/RealtyObjectBuilder.php)
 - [reference](https://secure.php.net/DOMDocument)
 
 ### DateTime
+
 - [example](https://github.com/phpList/core/blob/master/src/Domain/Model/Identity/AdministratorToken.php)
 - [reference](https://secure.php.net/datetime)
 
 ## Clean code
+
 - [reference for the PHP command line (including the linter)](https://secure.php.net/manual/features.commandline.options.php)
 - [example for PHPDoc](https://github.com/phpList/rest-api/blob/master/src/Controller/SubscriberController.php)
 - [reference for PHPDoc](https://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.howto.pkg.html)
@@ -89,6 +101,7 @@
 - [example (phpList) for a PHPMD configuration](https://github.com/phpList/core/tree/master/config/PHPMD)
 
 ## Error handling and logging
+
 - [example for throwing exceptions](https://github.com/phpList/core/blob/master/src/Core/ApplicationKernel.php#L167)
 - [example for catching exceptions](https://github.com/phpList/core/blob/master/src/Security/Authentication.php#L67)
 - [example for custom exceptions](https://git.typo3.org/Packages/TYPO3.CMS.git/blob/HEAD:/typo3/sysext/core/Classes/Database/Schema/Exception/StatementException.php)
@@ -100,6 +113,7 @@
 - [Monolog tutorial](https://stackify.com/php-monolog-tutorial/)
 
 ## Anonymous functions
+
 - [example for anonymous functions (lamdas)](https://github.com/oliverklee/anagram-finder/blob/master/Classes/AnagramFinder.php)
 - [example for assigning anonymous functions to variables and immediately executing them](https://github.com/georgringer/news/blob/master/ext_localconf.php)
 - [example for immediately executing anonymous functions](https://github.com/helhum/typoscript_rendering/blob/master/ext_localconf.php)
@@ -111,12 +125,15 @@
 - [tutorial for immediately-invoked function expressions (IIFE) in JavaScript](https://medium.com/@vvkchandra/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6)
 
 ## Low-level PHP
+
 - [example for variable class names](https://github.com/phpList/core/blob/master/src/Core/ApplicationKernel.php#L142)
 - [reference for variable variables](https://secure.php.net/manual/language.variables.variable.php)
-- [example for the `__call` magic method](https://git.typo3.org/Packages/TYPO3.CMS.git/blob/HEAD:/typo3/sysext/filelist/Classes/FileFacade.php#l298)
+- [example for the
+  `__call` magic method](https://git.typo3.org/Packages/TYPO3.CMS.git/blob/HEAD:/typo3/sysext/filelist/Classes/FileFacade.php#l298)
 - [reference for magic methods](https://secure.php.net/manual/language.oop5.magic.php)
 
 ## Built-in functions
+
 - [example for regular expression matching](https://github.com/oliverklee/ext-oelib/blob/master/Classes/AbstractMailer.php#L132)
 - [example for regular expression replacing](https://github.com/oliverklee/ext-oelib/blob/master/Classes/DataMapper.php#L1010)
 - [reference for regular expression functions](https://secure.php.net/manual/ref.pcre.php)
