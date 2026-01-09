@@ -207,8 +207,9 @@ Bodys.
 Je nach Projekt oder Organisation können im Subject Codes für die Art der
 Änderung stehen.
 
-Bei Projekten von [oliverklee.de](oliverklee.de) verwenden wir beispielsweise
-die folgenden Codes (angelehnt an die Konventionen des TYPO3-Core):
+Bei Projekten von [oliverklee.de](https://www.oliverklee.de/) verwenden wir
+beispielsweise die folgenden Codes (angelehnt an die Konventionen des
+TYPO3-Core):
 
 - `[FEATURE]` (plus GitHub-Label **enhancement**): wenn neue Funktionalität
   hinzugefügt wird
