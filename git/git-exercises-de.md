@@ -3,9 +3,11 @@
 Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
 
 ## Git-Installation
+
 1. Installiert euch Git (siehe die [README](README.md)).
 
 ## Bash/Linux-Kommandozeile
+
 1. Lasst euch anzeigen, in welchem Verzeichnis ihr gerade seid.
 1. Lasst euch anzeigen, welche Verzeichnisse und Dateien es im aktuellen
    Verzeichnis gibt.
@@ -26,6 +28,7 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
 1. Schaut, dass die Datei jetzt tatsächlich nicht mehr existiert.
 
 ## Git-Konfiguration
+
 1. Richtet euch Tab-Autovervollständigung für Git ein. Ihr könnt es testen,
    indem ihr `git check` tippt und dann Tab drückt. Wenn aus `check` ein
    `checkout` wird, tut's die Autovervollständigung.
@@ -35,6 +38,7 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
    Mailadresse.
 
 ## Lokales Arbeiten
+
 1. Lasst euch anzeigen, welche Git-Version ihr benutzt.
 1. Lasst euch die Git-Hilfe anzeigen.
 1. Lasst euch die Git-Hilfe für `git init` anzeigen. Falls die Hilfe auf der
@@ -73,17 +77,22 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
 1. Lasst euch das Log einzeilig anzeigen.
 
 ## Schadensbegrenzung
+
 1. Bearbeitet die `hans.txt` und fügt diese zum letzten Commit hinzu.
 1. Lasst euch das Log anzeigen.
-1. Bearbeitet `hans.txt` und setzt die Datei dann wieder die Version aus dem letzten Commit zurück.
-1. Setzt `hans.txt` auf die Version auf dem vorletzten Commit zurück (ohne zu committen).
+1. Bearbeitet `hans.txt` und setzt die Datei dann wieder die Version aus dem
+   letzten Commit zurück.
+1. Setzt `hans.txt` auf die Version auf dem vorletzten Commit zurück (ohne zu
+   committen).
 1. Macht den kompletten letzten Commit rückgängig.
 1. Ändert eine Datei. Bringt die Änderungen mit dem Stash in Sicherheit.
 1. Holt die Änderungen wieder aus dem Stash.
 1. Setzt die Datei wieder auf den Ursprungszustand zurück.
 
 ## Branches
-1. Lasst euch anzeigen, welche Branches es gibt und auf welchem Branch ihr gerade seid.
+
+1. Lasst euch anzeigen, welche Branches es gibt und auf welchem Branch ihr
+   gerade seid.
 1. Legt einen Branch `pinguin` an.
 1. Wechselt auf den Branch.
 1. Legt in dem Branch eine Datei `watscheln.txt` an und committet sie.
@@ -100,12 +109,14 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
 1. Findet die Commit-IDs der beiden Eltern-Commits des Merge-Commits
    und vollzieht die Commit-IDs und die Struktur per `gitk` nach.
 1. Löscht den `pinguin`-Branch.
-1. Legt mit einem Kommando einen Branch `nacktmull` an und wechselt direkt in den Branch.
+1. Legt mit einem Kommando einen Branch `nacktmull` an und wechselt direkt in
+   den Branch.
 1. Legt eine Datei `frittiertes-mars.txt` an und committet sie.
 1. Wechselt wieder in den `master`.
 1. Löscht den `nacktmull`-Branch, ohne ihn zu mergen.
 
 ## Rebase und Konflikte
+
 1. Legt einen Branch `tee` an, wechselt in den Branch, legt dort eine Datei
    `earl grey.txt` (mit Leerzeichen!) mit ein paar Zeilen Text an und committet
    sie.
@@ -124,19 +135,21 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
    einen anderen Branch.
 
 ## RSA-Keys und Accounts
+
 1. Erzeugt euch ein RSA-Schlüsselpaar **ohne Passphrase** (falls noch nicht
    geschehen). Hier die Anleitungen, wie man das unter Windows macht:
-   - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-   - https://dhue.de/git-fur-windows-installieren-und-ssh-keys-nutzen/
-   - https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
+    - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+    - https://dhue.de/git-fur-windows-installieren-und-ssh-keys-nutzen/
+    - https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
 1. Loggt euch bei GitHub ein und ladet euren öffentlichen RSA-Schlüssel hoch.
-   - https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+    - https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 1. Teilt Oliver euren GitHub-Usernamen mit und bittet ihn, euch zum
    Übungs-Repository hinzuzufügen.
 1. Klont euch per SSH das Repository unter `https://github.com/symfony/demo`.
    Werft es nicht weg - ihr braucht es später noch.
 
 ## Verteiltes Arbeiten
+
 1. Klont euch das Übungsrepository von GitHub/GitLab. Achtet dabei darauf,
    dass ihr es per SSH klont und nicht per HTTPS.
 1. Wechselt in das Verzeichnis des geklonten Repositories.
@@ -163,7 +176,9 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
 1. Rebased den Branch `bugfix` auf `release`.
 
 ## Noch mehr Schadensbegrenzung
-1. Erzeugt einen Branch nicht von `master`, sondern vom vorletzten Commit von `master`.
+
+1. Erzeugt einen Branch nicht von `master`, sondern vom vorletzten Commit von
+   `master`.
    Löscht den Branch dann wieder.
 1. Schaut euch das Reflog an.
 1. Stellt den gelöschten Branch `nacktmull` wieder her.
@@ -180,7 +195,8 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
    dieser Datei - das wäre im Sinne dieser Übung.) Setzt danach das Repository
    wieder in einen jungfräulichen Zustand zurück.
 1. Rebased den Branch `bugfix` auf `development`.
-1. Findet 3 unterschiedliche Wege, wieder einen Branch `bugfix` zu haben, der wieder
+1. Findet 3 unterschiedliche Wege, wieder einen Branch `bugfix` zu haben, der
+   wieder
    `release` plus die Inhalte der Commits aus `bugfix` enthält.
 1. Legt zwei Dateien um Hauptverzeichnis eures Projektes an. Räumt diese mit
    Git-Bordmitteln wieder weg.
@@ -192,6 +208,7 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
 1. Führt die Garbage-Collection aus. Und jetzt noch einmal aggressiv.
 
 ## .gitignore und .gitattributes
+
 1. Bearbeitet die `.gitignore so`, dass Dateien in allen Verzeichnissen
    ignoriert werden, die Endung `.bak` haben. Testet dies.
 1. Sorgt dafür, dass das Verzeichnis `.idea/` nur im Projekt-Wurzelverzeichnis
@@ -207,6 +224,7 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
    minifizierten Bootstrap-CSS.
 
 ## Tags und Releases
+
 1. Lasst euch im Spielwiesen-Projekt lokal alle Tags anzeigen.
 1. Erzeugt im Spielwiesen-Projekt ein annotiertes Tag für euren Geburtstag,
    z.B. `v2.4.75` für den 2.4.1975.
@@ -225,6 +243,7 @@ Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
 ## Arbeiten mit Merge-Requests/Pull-Requests
 
 Rollen:
+
 - **A:** Autor:in
 - **R:** Reviewer:in
 
@@ -247,7 +266,8 @@ Rollen:
 1. **R:** Reviewt den Pull-Request eures Buddys, lobt per Kommentar eine Zeile,
    bittet per Kommentar an einer Zeile um eine Änderung
    und markiert den Review als "Änderungen benötigt".
-1. **A:** Macht auf eurem eigenen Branch die gewünschten Änderungen, legt diese in
+1. **A:** Macht auf eurem eigenen Branch die gewünschten Änderungen, legt diese
+   in
    einem neuen Commit ab und pusht euren Branch.
    Kommentiert den Kommentar außerdem mit "Done.".
 1. **R:** Schaut euch den aktualisierten PR an.
@@ -256,9 +276,9 @@ Rollen:
 1. **A:** Übernehmt in eurem eigene PR die Änderung, holt euch den Commit auf
    lokal, squasht, und force-pusht.
 1. **R:** Schlagt diesmal weitere Änderungen vor:
-   * eine, die zwei Zeilen ändert
-   * eine, die aus einer Zeile zwei macht
-   * eine, die eine existierende Zeile löscht
+    * eine, die zwei Zeilen ändert
+    * eine, die aus einer Zeile zwei macht
+    * eine, die eine existierende Zeile löscht
 1. **A:** Übernehmt die von eurem Buddy vorgeschlagene Änderungen.
    Squasht diesmal nicht.
 1. **R:** Reviewt das Endergebnis, genehmigt den PR mit ein paar lobenden
@@ -287,9 +307,9 @@ Rollen:
 1. **A:** Übernehmt in eurem eigene MR die Änderung, holt euch den Commit auf
    lokal, squasht, und force-pusht.
 1. **R:** Schlagt diesmal weitere Änderungen vor:
-   * eine, die zwei Zeilen ändert
-   * eine, die aus einer Zeile zwei macht
-   * eine, die eine existierende Zeile löscht
+    * eine, die zwei Zeilen ändert
+    * eine, die aus einer Zeile zwei macht
+    * eine, die eine existierende Zeile löscht
 1. **A:** Übernehmt die von eurem Buddy vorgeschlagene Änderungen.
    Squasht diesmal nicht.
 1. **R:** Reviewt das Endergebnis, genehmigt den MR mit ein paar lobenden
@@ -297,6 +317,7 @@ Rollen:
    die Commit-Message.
 
 ## Commit-Messages
+
 1. Lest euch den
    [Artikel über gute Commit-Message](https://chris.beams.io/posts/git-commit/)
    durch.
@@ -306,7 +327,8 @@ Rollen:
    den Empfehlungen aus dem Artikel entspricht, und verbessert sie.
    Präsentiert dann die Vorher- und Nachher-Version beider Commit-Messages der
    Gruppe.
-1. Sucht euch eine Commit-Message von euch selbst in eurem echten Projekt heraus,
+1. Sucht euch eine Commit-Message von euch selbst in eurem echten Projekt
+   heraus,
    verbessert die komplette Message (mit Beschreibung), und präsentiert sie der
    Gruppe.
 
