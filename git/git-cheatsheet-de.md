@@ -159,7 +159,7 @@ mit dem Original-Repository verknüpfen:
 
 ### Den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
 
-zum Main wechseln: `git checkout main`
+zum Main wechseln: `git switch main`
 
 den Fork mit dem Original abgleichen: `git fetch upstream`
 
@@ -169,13 +169,6 @@ den lokalen Main abgleichen: `git rebase upstream/main`
 
 die Änderungen im bestehenden Commit veröffentlichen: `git commit --amend`
 
-die Änderungen auf den Fork verschieben (force): `git push -f`
-
-**Wichtig**
-in der Beschreibung `Fixes #<Ticketnummer>` angeben, damit beim Merge das Ticket
-automatisch geschlossen werden kann.
-Üblicherweise steht die Zeile am Ende der Beschreibung.
-
 ### Nach dem geschlossenen Pull-Request das eigene Fork wieder updaten
 
 online in der Maske den Remote-Branch löschen
@@ -183,11 +176,11 @@ online in der Maske den Remote-Branch löschen
 1. zum geschlossenen Pull-Request wechseln
 1. den Branch löschen
 
-zum Main wechseln: `git checkout main`
+zum Main wechseln: `git switch main`
 
 prüfen, ob der Remote-Branch noch existiert: `git remote prune origin`
 
-den lokalen Branch löschen `git branch -D <Branch Name>`
+den lokalen Branch löschen `git branch -D <branchName>`
 
 den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
 
@@ -203,6 +196,11 @@ Das Subject einer Commit-Message sollten im Englischen den Imperativ benutzen
 
 Der Body einer Commit-Message sollte das Warum eines Commits beschreiben
 (fall nötig).
+
+Wenn ein Pull-Request ein Ticket schließt, sollte im Body
+`Fixes #<Ticketnummer>` stehen. Das sorgt dafür, dass beim Mergen des PRs das
+Ticket automatisch geschlossen wird. Üblicherweise steht diese Zeile am Ende des
+Bodys.
 
 ### Projektspezifische Commit-Message-Konventionen
 
