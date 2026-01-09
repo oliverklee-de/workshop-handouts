@@ -193,10 +193,16 @@ den lokalen Main mit Upstream synchronisieren und auf euren Fork pushen
 
 ## ✉️ Commit-Message
 
-*     git commit -a
+### Subject
 
-- Imperativ im Subject verwenden
-- Im Body bei Bedarf das **Warum** beschreiben
+Das Subject einer Commit-Message sollten im Englischen den Imperativ benutzen
+(`Use a chronological sorting`) und im Deutschen den Infinitiv
+(`Auf chronologische Sortierung umstellen`).
+
+### Body
+
+Der Body einer Commit-Message sollte das Warum eines Commits beschreiben
+(fall nötig).
 
 **Hinweis:** Je nach Projekt können im Subject auch andere Codes für die Art der
 Änderung stehen.<br>
