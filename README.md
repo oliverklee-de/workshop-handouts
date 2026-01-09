@@ -15,6 +15,11 @@ Zusätzlich liegt hier noch:
 
 * [Feedback-Fragebogen](feedback-fragebogen) (DE) für alle Workshops
 
+# Cheatsheets
+
+* [Composer](cheatsheets/composer-cheatsheet-de.md) (DE)
+* [Git](cheatsheets/git-cheatsheet-de.md) (DE)
+
 ## Über mich (Oliver Klee)
 
 Ich bin der Autor des [Spielereaders](https://www.spielereader.org/).
