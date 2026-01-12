@@ -12,19 +12,6 @@ Wer homebrew benutzt:
 brew install git
 ```
 
-## 🐧 Bash/Linux-Kommandozeile
-
-| Aktion                                                | Kommando             |
-|-------------------------------------------------------|----------------------|
-| Zeige Verzeichnisinhalt                               | `ls`                 |
-| In Verzeichnis `<dir>` wechseln                       | `cd <dir>`           |
-| Zum letzten Verzeichnis wechseln                      | `cd -`               |
-| Pfad des aktuellen Verzeichnisses anzeigen            | `pwd`                |
-| Verzeichnis erstellen                                 | `mkdir <dir>`        |
-| Datei löschen                                         | `rm <file>`          |
-| Datei verschieben oder umbenennen                     | `mv <file1> <file2>` |
-| Datei anlegen oder Dateizeit auf aktuelle Zeit setzen | `touch <file>`       |
-
 ## ⚙️ Git-Konfiguration
 
 Denkt daran, die Platzhalter durch euren echten vollen Namen und eure
@@ -226,3 +213,7 @@ TYPO3-Core):
 - https://www.gitkraken.com/learn/git/best-practices/git-commit-message
 - https://docs.typo3.org/m/typo3/guide-contributionworkflow/main/en-us/Appendix/CommitMessage.html
 - https://github.com/oliverklee/ext-seminars/commit/1df376e2f57b680383e886cfa3201e4de2fc5479
+
+## 🐧 Weiterführende Informationen zu Kommandozeile/ Linux
+
+* siehe [Linux Cheatsheet](linux-cheatsheet-de.md)
