@@ -19,6 +19,7 @@ Zusätzlich liegt hier noch:
 
 * [Composer](cheatsheets/composer-cheatsheet-de.md) (DE)
 * [Git](cheatsheets/git-cheatsheet-de.md) (DE)
+* [Linux](cheatsheets/linux-cheatsheet-de.md) (DE)
 
 ## Über mich (Oliver Klee)
 
