@@ -317,7 +317,7 @@ das Git-Cheatsheet oder die Aufgaben verbessern, und keine unsinnigen
 Test-Änderungen.**
 
 1. Forkt das
-   [Workshop-Handouts-Repository](https://github.com/oliverklee/workshop-handouts/).
+   [Workshop-Handouts-Repository](https://github.com/oliverklee-de/workshop-handouts/).
 1. Klont euch euren Fork auf lokal.
 1. Legt euch lokal ein `upstream`-Remote an.
 1. Sucht euch einen Abschnitt im [Git-Cheatsheet](git-cheatsheet-de.md) heraus,
@@ -325,7 +325,7 @@ Test-Änderungen.**
    **Bitte nur echte Tickets, keine Dummy-Tickets!**
    Alternativ könnt ihr auch gerne Fehler in den Aufgaben (also diesem
    Dokument) beheben. Eventuell stehen dafür in den
-   [Issues](https://github.com/oliverklee/workshop-handouts/issues)
+   [Issues](https://github.com/oliverklee-de/workshop-handouts/issues)
    auch schon offene Punkte, die ihr übernehmen könnt.
 1. Legt dafür einen sinnvoll benannten Branch an und fügt dort eure Änderungen
    ein.

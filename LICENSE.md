@@ -10,7 +10,7 @@ für euch kostenlos verbreiten, bearbeiten und nutzen könnt
 
 * **Namensnennung.** Ihr müsst den Namen des Autors (Oliver Klee) nennen. Wenn ihr
   dabei zusätzlich auch noch die Quelle
-  (https://github.com/oliverklee/workshop-handouts) nennt, wäre das nett. Und
+  (https://github.com/oliverklee-de/workshop-handouts) nennt, wäre das nett. Und
   wenn ihr mir zusätzlich eine Freude machen möchtet, sagt mir per E-Mail
   Bescheid.
 
