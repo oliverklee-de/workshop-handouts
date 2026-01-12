@@ -4,16 +4,18 @@
 
 ## 🐧 Bash/Linux-Kommandozeile
 
-| Aktion                                                | Kommando             |
-|-------------------------------------------------------|----------------------|
-| Zeige Verzeichnisinhalt                               | `ls`                 |
-| In Verzeichnis `<dir>` wechseln                       | `cd <dir>`           |
-| Zum letzten Verzeichnis wechseln                      | `cd -`               |
-| Pfad des aktuellen Verzeichnisses anzeigen            | `pwd`                |
-| Verzeichnis erstellen                                 | `mkdir <dir>`        |
-| Datei löschen                                         | `rm <file>`          |
-| Datei verschieben oder umbenennen                     | `mv <file1> <file2>` |
-| Datei anlegen oder Dateizeit auf aktuelle Zeit setzen | `touch <file>`       |
+| Aktion                                                | Kommando               |
+|-------------------------------------------------------|------------------------|
+| Zeige Verzeichnisinhalt                               | `ls`                   |
+| In Verzeichnis `<dir>` wechseln                       | `cd <dir>`             |
+| Zum letzten Verzeichnis wechseln                      | `cd -`                 |
+| Pfad des aktuellen Verzeichnisses anzeigen            | `pwd`                  |
+| Verzeichnis erstellen                                 | `mkdir <dir>`          |
+| Datei löschen                                         | `rm <file>`            |
+| Datei verschieben oder umbenennen                     | `mv <file1> <file2>`   |
+| Datei anlegen oder Dateizeit auf aktuelle Zeit setzen | `touch <file>`         |
+| Dateiinhalt suchen                                    | `grep "text" <file>`   |
+| Dateiinhalt rekursiv durchsuchen                      | `grep -r "text" <dir>` |
 
 ## 🐚 Effizient mit Kommando-Zeile arbeiten
 
@@ -27,3 +29,4 @@
 | Strg + A / Strg + E                       | Zum Anfang / Ende der Zeile springen                             |
 | Strg + Umschalt + C / Strg + Umschalt + V | Copy & Paste in der Konsole                                      |
 | Mittlere Maustaste                        | Markierten Text einfügen (funktioniert auch außerhalb der Shell) |
+| Strg + L                                  | Räumt Kommando-Zeile leer                                        |
