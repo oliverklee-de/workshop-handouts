@@ -212,7 +212,7 @@ TYPO3-Core):
 - https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
 - https://www.gitkraken.com/learn/git/best-practices/git-commit-message
 - https://docs.typo3.org/m/typo3/guide-contributionworkflow/main/en-us/Appendix/CommitMessage.html
-- https://github.com/oliverklee/ext-seminars/commit/1df376e2f57b680383e886cfa3201e4de2fc5479
+- https://github.com/oliverklee-de/seminars/commit/1df376e2f57b680383e886cfa3201e4de2fc5479
 
 ## 🐧 Weiterführende Informationen zu Kommandozeile/ Linux
 

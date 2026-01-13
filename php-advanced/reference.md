@@ -68,13 +68,13 @@
 
 ### ZipArchive
 
-- [example for reading and writing](https://github.com/oliverklee/ext-csv_to_openimmo/blob/master/Classes/Service/Zipper.php)
+- [example for reading and writing](https://github.com/oliverklee-de/csv_to_openimmo/blob/master/Classes/Service/Zipper.php)
 - [reference](https://secure.php.net/ziparchive)
 
 ### DOMDocument
 
-- [example for writing, part 1](https://github.com/oliverklee/ext-csv_to_openimmo/blob/master/Classes/Service/OpenImmoBuilder.php)
-- [example for writing, part 2](https://github.com/oliverklee/ext-csv_to_openimmo/blob/master/Classes/Service/RealtyObjectBuilder.php)
+- [example for writing, part 1](https://github.com/oliverklee-de/csv_to_openimmo/blob/master/Classes/Service/OpenImmoBuilder.php)
+- [example for writing, part 2](https://github.com/oliverklee-de/csv_to_openimmo/blob/master/Classes/Service/RealtyObjectBuilder.php)
 - [reference](https://secure.php.net/DOMDocument)
 
 ### DateTime
@@ -94,7 +94,7 @@
 - [example for Composer scripts](https://github.com/MyIntervals/emogrifier/blob/master/composer.json)
 - [example (phpList) for a PHP_CodeSniffer configuration](https://github.com/phpList/core/tree/master/config/PhpCodeSniffer)
 - [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
-- [example (oelib) for a PHP-CS-Fixer configuration](https://github.com/oliverklee/ext-oelib/blob/master/Configuration/php-cs-fixer.php)
+- [example (oelib) for a PHP-CS-Fixer configuration](https://github.com/oliverklee-de/oelib/blob/master/Configuration/php-cs-fixer.php)
 - [PHPStan](https://github.com/phpstan/phpstan)
 - [Psalm](https://github.com/vimeo/psalm)
 - [PHPMD](https://github.com/phpmd/phpmd)
@@ -114,7 +114,7 @@
 
 ## Anonymous functions
 
-- [example for anonymous functions (lamdas)](https://github.com/oliverklee/anagram-finder/blob/master/Classes/AnagramFinder.php)
+- [example for anonymous functions (lamdas)](https://github.com/oliverklee-de/anagram-finder/blob/master/Classes/AnagramFinder.php)
 - [example for assigning anonymous functions to variables and immediately executing them](https://github.com/georgringer/news/blob/master/ext_localconf.php)
 - [example for immediately executing anonymous functions](https://github.com/helhum/typoscript_rendering/blob/master/ext_localconf.php)
 - [example for closures](https://git.typo3.org/Packages/TYPO3.CMS.git/blob/HEAD:/typo3/sysext/frontend/Classes/Resource/FileCollector.php#l214)
@@ -134,11 +134,11 @@
 
 ## Built-in functions
 
-- [example for regular expression matching](https://github.com/oliverklee/ext-oelib/blob/master/Classes/AbstractMailer.php#L132)
-- [example for regular expression replacing](https://github.com/oliverklee/ext-oelib/blob/master/Classes/DataMapper.php#L1010)
+- [example for regular expression matching](https://github.com/oliverklee-de/oelib/blob/master/Classes/AbstractMailer.php#L132)
+- [example for regular expression replacing](https://github.com/oliverklee-de/oelib/blob/master/Classes/DataMapper.php#L1010)
 - [reference for regular expression functions](https://secure.php.net/manual/ref.pcre.php)
 - [example for using a stream handler](https://github.com/Nimut/testing-framework#database-fixtures)
 - [example for defining a stream handler](https://github.com/Nimut/testing-framework/blob/master/src/TestingFramework/File/NtfStreamWrapper.php)
 - [reference for streams](https://secure.php.net/manual/book.stream.php)
-- [example for reading CSV files](https://github.com/oliverklee/ext-csv_to_openimmo/blob/master/Classes/Service/CsvReader.php#L139)
+- [example for reading CSV files](https://github.com/oliverklee-de/csv_to_openimmo/blob/master/Classes/Service/CsvReader.php#L139)
 - [reference for reading CSV files](https://secure.php.net/manual/function.fgetcsv.php)
