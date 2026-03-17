@@ -4,50 +4,54 @@
 
 ## Installation
 
-Aktuelle PHP-Version: `php --version`
-
-Composer-Download: https://getcomposer.org/
-
-Composer-Version: `composer --version`
-
-Composer-Hilfe: `composer helper (<command>)`
-
-Liste der Composer-Befehle: `composer list`
-
-Composer-Update: `composer selfupdate`
+|                            | Kommandos                                            |
+|----------------------------|------------------------------------------------------|
+| Aktuelle PHP-Version       | `php --version`                                      |
+| Composer-Download          | [https://getcomposer.org/](https://getcomposer.org/) |
+| Composer-Version           | `composer --version`                                 |
+| Composer-Hilfe             | `composer help (<command>)`                          |
+| Liste der Composer-Befehle | `composer list`                                      |
+| Composer-Update            | `composer self-update`                               |
 
 ## Grundlagen
 
-Neues Projekt anlegen: `composer init`
+|                                                      | Kommandos             |
+|------------------------------------------------------|-----------------------|
+| Neues Projekt erstellen                              | `composer init`       |
+| Abhängigkeiten installieren                          | `composer install`    |
+| Installierte Pakete und Versionen anzeigen           | `composer show`       |
+| Standardverzeichnis der installierten Abhängigkeiten | `vendor/`             |
+| Standardverzeichnis des Composer-Autoloaders         | `vendor/autoload.php` |
 
-Abhängigkeiten installieren: `composer install`
-
-List der installierten Pakete und Versionen: `composer show`
-
-Standard-Ort der installierten Abhängigkeiten: `vendor/`
-
-Standard-Ort des Composer-Autoloaders: `vendor/autoload.php`
 
 ## Abhängigkeiten
 
 [Dokumentation von Requirement-Constraints](https://getcomposer.org/doc/articles/versions.md)
 
-Abhängigkeit hinzufügen: `composer require <Paketname>`
+|                              | Kommandos                            |
+|------------------------------|--------------------------------------|
+| Abhängigkeit hinzufügen      | `composer require <Paketname>`       |
+| Dev-Abhängigkeit hinzufügen  | `composer require --dev <Paketname>` |
+| Abhängigkeiten aktualisieren | `composer update`                    |
 
-Dev-Abhängigkeit hinzufügen: `composer require --dev <Paketname>`
-
-Abhängigkeiten aktualisieren: `composer update`
 
 ## Globale Installation
 
-Paket global installieren: `composer global install <Paketname>`
+|                            | Kommando                              |
+|----------------------------|---------------------------------------|
+| Paket global installieren: | `composer global require <Paketname>` |
 
 ## Weitere Befehle
 
-Neues Projekt aus Paket erstellen: `composer create-project <Paketname>`
+|                                   | Kommandos                                             |
+|-----------------------------------|-------------------------------------------------------|
+| Neues Projekt aus Paket erstellen | `composer create-project <Paketname>`                 |
+| Warum ist ein Paket installiert?  | `composer why <Paketname>`                            |
+| `composer.json` überprüfen        | `composer validate`                                   |
+| Autoloader neu erzeugen           | `composer dumpautoload` oder `composer dump-autoload` |
 
-Warum ist ein Paket installiert? `composer why <Paketname>`
+## Kleiner Composer-Merksatz
 
-`composer.json` überprüfen: `composer validate`
-
-Autoloader neu erzeugen: `composer dumpautoload` oder `composer dump-autoload`
+* **Wenn eine composer.lock vorhanden ist** ➡️ `composer install`
+* **Wenn keine composer.lock vorhanden ist** ➡️ `composer update`
+* **Wenn ein .ddev-Ordner vorhanden ist** ➡️ `ddev composer install` (oder update)
