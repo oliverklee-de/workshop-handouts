@@ -1,0 +1,53 @@
+\documentclass[a4paper,openany,twoside,titlepage,10pt,headsepline]{scrbook}
+
+\input{../shared/util/latex-layout}
+
+\AtBeginDocument{\selectlanguage{ngerman}}
+
+\title{Gewaltfreie Kommunikation:\\Was ist das denn?}
+\author{Oliver Klee\\\texttt{www.oliverklee.de}\\\texttt{seminare@oliverklee.de}}
+\date{Version vom \today}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\tableofcontents
+
+
+\mainmatter
+
+\chapter{Seminar-Handwerkszeug}
+\input{../shared/parts/workshopregeln}
+\input{../shared/parts/paarinterview}
+
+\chapter{Kommunikation}
+\input{../shared/parts/kommunikation-prinzipien}
+\input{../shared/parts/direkte-indirekte-kommunikation}
+\input{../shared/parts/ask-guess-culture}
+
+\chapter{Gewaltfreie Kommunikation}
+\index{Gewaltfreie Kommunikation}
+\input{verwandte-konzepte}
+\input{gfk-als-haltung}
+\input{annahmen}
+\input{schritte}
+\input{gefuehle}
+\input{beduerfnisse}
+\input{bitten}
+\input{weiterlernen}
+
+\chapter{Übungsaufgaben}
+\input{gfk-uebungen}
+
+\backmatter
+
+\bibliography{../shared/bibliography/literatur}
+
+\input{../shared/parts/lizenz}
+
+\printindex
+
+\end{document}
