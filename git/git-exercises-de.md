@@ -355,8 +355,8 @@ Test-Änderungen.**
    [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 1. Erstellt daraus einen Pull-Request. Schreibt in die Beschreibung (nicht das
    Subject) der Commit-Message den Text `Fixes #<Ticketnummer>`, damit das
-   Ticket beim Mergen des Pull-Requests automatisch geschlossen wird.
-   **Bitte nur echte Pull-Requests, keine Dummy-PRs!**
+   Ticket beim Mergen des Pull-Requests automatisch geschlossen wird. **Bitte
+   nur echte Pull-Requests, keine Dummy-PRs!**
 1. Wartet auf Review-Feedback. Überarbeitet und rebaset euren PR nach Bedarf.
 1. Wartet, bis Oliver euren PR gemergt hat.
 1. Geht auf GitHub auf den geschlossenen PR und löscht darüber den
