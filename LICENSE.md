@@ -8,7 +8,7 @@ Das bedeutet, dass ihr die Handouts unter diesen Bedingungen
 für euch kostenlos verbreiten, bearbeiten und nutzen könnt (auch kommerziell):
 
 * **Namensnennung.** Ihr müsst den Namen des Autors (Oliver Klee) nennen. Wenn
-  ihr dabei zusätzlich auch noch die Quelle
+  ihr dabei zusätzlich noch die Quelle
   (https://github.com/oliverklee-de/workshop-handouts) nennt, wäre das nett.
   Und wenn ihr mir zusätzlich eine Freude machen möchtet, sagt mir per E-Mail
   Bescheid.

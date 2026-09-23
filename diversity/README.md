@@ -138,7 +138,7 @@ This is an incomplete list of examples.
 * serving only alcoholic drinks at social events
 * publishing pictures of people without their consent
 * venues that are not wheelchair-friendly
-* sexist comments on twitter ("maybe the ladies just have nothing to say at the
+* sexist comments on Twitter ("maybe the ladies just have nothing to say at the
   conferences")
 * speaking German by default at an international event
 * using "guys" to refer a mixed-gender group
