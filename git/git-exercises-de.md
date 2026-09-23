@@ -163,7 +163,7 @@ Die nötigen Befehle findet ihr im
 9. Wechselt wieder auf den `main` und löscht den lokalen `gurkensalat`-Branch
    wieder.
 10. Pullt euch die Änderungen.
-11. Legt einen Branch an, legt dort einen Datei an und committet sie.
+11. Legt einen Branch an, legt dort eine Datei an und committet sie.
 12. Wartet, bis Oliver etwas geändert und gepusht hat.
 13. Wechselt zum `main`, pullt, wechselt zu eurem Branch, rebased, wechselt
     wieder zu `main`, merget euren Branch, pusht, und löscht euren Branch.
@@ -277,7 +277,7 @@ Rollen:
 6. **R:** Schaut euch den aktualisierten PR an.
    Markiert die Diskussion als gelöst.
    Schlagt diesmal eine einzeilige Änderung vor.
-7. **A:** Übernehmt in eurem eigene PR die Änderung, holt euch den Commit auf
+7. **A:** Übernehmt in eurem eigenen PR die Änderung, holt euch den Commit auf
    lokal, squasht, und force-pusht.
 8. **R:** Schlagt diesmal weitere Änderungen vor:
     * eine, die zwei Zeilen ändert

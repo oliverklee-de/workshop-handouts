@@ -2,12 +2,12 @@
 
 ## Über das Übungsprojekt
 
-Das Übungsprojekt `words` wird ein kommandozeilen-basierter Werkzeugkasten
+Das Übungsprojekt `words` wird ein Kommandozeilen-basierter Werkzeugkasten
 sein, mit dem ihr verschiedene Dinge mit Buchstaben, Wörtern und Wörterbüchern
 tun könnt. Außerdem wird das Projekt ein paar Testfunktionen haben, mit denen
 ihr einige PHP-Funktionalitäten ausprobieren könnt.
 
-Das Projekt wird keine webbasierte Oberfläche haben, damit wir und bei dem
+Das Projekt wird keine webbasierte Oberfläche haben, damit wir uns bei dem
 Workshop nicht mit Web-Frameworks oder CMSen zu beschäftigen brauchen.
 
 ## Infrastruktur-Checks
@@ -23,16 +23,17 @@ Workshop nicht mit Web-Frameworks oder CMSen zu beschäftigen brauchen.
 1. Legt euch ein Verzeichnis `words` für das Übungsprojekt an.
 2. Falls ihr das Projekt mit Git versionieren möchtet (was ich sehr empfehle),
    initialisiert das lokale Git-Repository.
-3. Legt die empfohlene Verzeichnisstruktur an. Falls ihr mit arbeitet, legt
+3. Legt die empfohlene Verzeichnisstruktur an. Falls ihr mit Git arbeitet, legt
    auch die `.gitkeep`-Dateien in den leeren Verzeichnissen an.
 4. Stellt bei euch in der IDE ein, dass ihr Unix-Zeilenenden benutzt und keine
    BOM einfügt.
-5. Schaut auf Packagist nach, welche Paket der User `oliverklee`
+5. Schaut auf Packagist nach, welche Pakete der User `oliverklee`
    veröffentlicht hat.
 6. Sucht euch einen aussagekräftigen Packagist-Usernamen aus und prüft, dass
    dieser Username noch nicht vergeben ist.
-7. Falls ihr erwägt, irgendwann man Projekt auf Packagist zu veröffentlichen,
-   registriert euch auf Packagist, damit euer Username dauerhaft euch gehört.
+7. Falls ihr erwägt, irgendwann mal ein Projekt auf Packagist zu
+   veröffentlichen, registriert euch auf Packagist, damit euer Username
+   dauerhaft euch gehört.
 8. Lest euch die Doku zur `composer.json` durch.
 9. Legt eine `composer.json` für euer Projekt mit dem Typ `project` an.
    Schaut euch die Dokumentation für die `composer.json` an und füllt alle
@@ -49,7 +50,7 @@ Workshop nicht mit Web-Frameworks oder CMSen zu beschäftigen brauchen.
 
 ## Symfony-Konsole
 
-Die Symfony-Konsole wird unser Einstiegspunkt für all die Funktionalität sein,
+Die Symfony-Konsole wird unser Einstiegspunkt für die Funktionalität sein,
 die unser Projekt bekommt.
 
 1. Lest euch die Doku zur Symfony-Konsole durch.
@@ -116,7 +117,7 @@ einiges über die Arbeit mit UTF-8 in PHP lernen.
 4. Schreibt ein Kommando `anagram:check`, das zwei Wörter erwartet und prüft,
    ob die beiden Wörter Anagramme voneinander sind (unabhängig von der Groß-
    und Kleinschreibung). "Leo" ist beispielsweise ein Anagramm von "Ole".
-5. Findet eine Liste aller Wörter eine Sprache als Textdatei im Netz (de_DE,
+5. Findet eine Liste aller Wörter einer Sprache als Textdatei im Netz (de_DE,
    en_GB oder en_US oder auch eine andere Sprache) und legt sie im
    Projekt ab.
 6. Schreibt ein Kommando `resources:read-words`, das alle Wörter aus der
@@ -136,8 +137,8 @@ einiges über die Arbeit mit UTF-8 in PHP lernen.
    widerspiegeln, also beispielsweise `Command\Hello\GreetCommand` für
    `hello:greet`.
 3. Besprecht dieses Konzept mit mir.
-4. Setzt dieses Konzept um. Geht dabei kleine Schritte, sodass ihr sehr
-   schnell immer wieder korrekt funktionierenden Code habt.
+4. Setzt dieses Konzept um. Geht dabei kleine Schritte, sodass ihr schnell immer
+   wieder korrekt funktionierenden Code habt.
 
 Unter anderen solltet ihr dabei diese Klasse bzw. Methoden haben (alle innerhalb
 eures Project-Namespaces):
@@ -209,7 +210,7 @@ Typ-Deklaration in PHP wäre `array`.
     behoben habt.
 16. Installiert euch PHPMD, kopiert euch die Konfiguration von phpList,
     schreibt dafür ein Composer-Skript `ci:php:md`, und behebt alle Warnungen.
-17. Schreibt ein Composer-Skript `ci:static`, dass alle statischen Analysen
+17. Schreibt ein Composer-Skript `ci:static`, das alle statischen Analysen
     aufruft.
 
 Ab dieser Stelle gehört es zu allen folgenden Aufgaben, dass ihr euren Code
@@ -234,10 +235,10 @@ behebt.
 6. Baut die Exceptions so um, dass ihr den Symfony-Console-Logger nutzt. Lasst
    alle Probleme loggen (kleine wie große), werft aber nur dort eine Exception,
    wo das Programm tatsächlich nicht mehr sinnvoll weitermachen kann.
-7. Tragt Monolog als Abhängigkeit ein und loggt nach innerhalb des
+7. Tragt Monolog als Abhängigkeit ein und loggt innerhalb des
    Projektverzeichnisses nach `var/log/error.log` und `var/log/debug.log`
    (mit den entsprechenden Log-Leveln). Loggt jetzt auch die normale Benutzung.
-   Schaut euch an, was in beiden Fällen bei welchen Probleme geloggt wird.
+   Schaut euch an, was in beiden Fällen bei welchen Problemen geloggt wird.
 
 ## Anonyme Funktionen
 
@@ -250,6 +251,6 @@ behebt.
 
 ## Low-level-PHP
 
-1. Baut `console` so um, dass ihr ein Array von Klassennamen habe (mit
+1. Baut `console` so um, dass ihr ein Array von Klassennamen habt (mit
    `::class`), über die ihr iteriert, um die Kommandos zu instanziieren
    und der Applikation hinzuzufügen.

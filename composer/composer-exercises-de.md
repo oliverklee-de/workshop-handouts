@@ -23,7 +23,7 @@
       als Person).
     - Nehmt `workshop` als Produktnamen.
     - Nehmt `GPL-3.0+` als Lizenz.
-    - An dieser Steller braucht das Projekt noch keine Abhängkeiten zu haben.
+    - An dieser Stelle braucht das Projekt noch keine Abhängigkeiten zu haben.
 2. Schaut euch die generierte `composer.json` an.
 3. Schaut euch im Verzeichnis `vendor/` um.
 4. Legt eine Datei `bin/start.php` an, die "Hello world!" ausgibt.
@@ -34,13 +34,13 @@
    sind.
 2. Schaut euch die Abhängigkeiten und die Beschreibung von `pelago/emogrifier`
    2.0.0 an und versteht diese.
-3. Findet heraus, welche Pakete mit mehr als 10.000 Downloads von
+3. Findet heraus, welche Pakete mit mehr als 10\,000 Downloads von
    `pelago/emogrifier` abhängen.
 4. Schaut euch die Abhängigkeiten und die Beschreibung von `symfony/symfony`
    4.1.0 an und versteht diese.
 5. Findet heraus, welche Pakete es noch vom Vendor von `symfony/symfony` gibt.
-6. Findet heraus, wer der der Maintainer von `phpunit/phpunit` ist und von
-   welchen Paketen er der Maintainer ist.
+6. Findet heraus, wer Maintainer\_in von `phpunit/phpunit` ist und von
+   welchen Paketen die Person sonst noch Maintainer\_in ist.
 7. Findet heraus, welche Pakete der User "oliverklee" maintaint.
 
 ## Abhängigkeiten
@@ -109,7 +109,7 @@
 5. Lasst `php-cs-fixer` mit dem PSR-2-Standard auf euer Projekt laufen und
    lasst euch mit `git diff` sowie `git diff -w` die Änderungen anzeigen.
 6. Installiert euch global das Paket `phpstan/phpstan`.
-7. Fügt für eurer Projekt eine `composer.json` hinzu und tragt dort [Autoloading
+7. Fügt für euer Projekt eine `composer.json` hinzu und tragt dort [Autoloading
    per Classmap](https://getcomposer.org/doc/04-schema.md#classmap) ein.
 8. Schaut euch
    die [Dokumentation zu PhpStan](https://github.com/phpstan/phpstan)
@@ -129,7 +129,7 @@
 
 ## Composer und Git
 
-1. Schaut euch die .gitgnore der beiden Projekte an, die ihr mit
+1. Schaut euch die `.gitgnore` der beiden Projekte an, die ihr mit
    `composer create-project` erzeugt habt, und versteht, warum welche Sachen
    ignoriert bzw. nicht ignoriert werden.
 

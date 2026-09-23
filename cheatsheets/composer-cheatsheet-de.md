@@ -50,7 +50,7 @@
 
 ## Kleiner Composer-Merksatz
 
-* **Wenn eine composer.lock vorhanden ist** ➡️ `composer install`
-* **Wenn keine composer.lock vorhanden ist** ➡️ `composer update`
-* **Wenn ein .ddev-Ordner vorhanden ist** ➡️ `ddev composer install` (oder
-  update)
+* **Wenn eine `composer.lock` vorhanden ist** ➡️ `composer install`
+* **Wenn keine `composer.lock` vorhanden ist** ➡️ `composer update`
+* **Wenn ein `.ddev`-Ordner vorhanden ist** ➡️ `ddev composer install` (oder
+  `update`)
