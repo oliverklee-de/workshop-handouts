@@ -1,6 +1,7 @@
 # Übungen zu Git
 
-Die nötigen Befehle findet ihre im [Git-Cheatsheet](git-cheatsheet-de.md).
+Die nötigen Befehle findet ihr im
+[Git-Cheatsheet](../cheatsheets/git-cheatsheet-de.md).
 
 ## Git-Installation
 
@@ -346,7 +347,8 @@ Test-Änderungen.**
    [Workshop-Handouts-Repository](https://github.com/oliverklee-de/workshop-handouts/).
 2. Klont euch euren Fork auf lokal.
 3. Legt euch lokal ein `upstream`-Remote an.
-4. Sucht euch einen Abschnitt im [Git-Cheatsheet](git-cheatsheet-de.md) heraus,
+4. Sucht euch einen Abschnitt im
+   [Git-Cheatsheet](../cheatsheets/git-cheatsheet-de.md) heraus,
    den ihr verbessern möchtet, erstellt dafür ein Ticket und weist es euch zu.
    **Bitte nur echte Tickets, keine Dummy-Tickets!**
    Alternativ könnt ihr auch gerne Fehler in den Aufgaben (also diesem
