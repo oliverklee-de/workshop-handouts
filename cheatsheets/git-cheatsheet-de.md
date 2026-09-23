@@ -161,7 +161,7 @@ die Änderungen im bestehenden Commit veröffentlichen: `git commit --amend`
 online in der Maske den Remote-Branch löschen
 
 1. zum geschlossenen Pull-Request wechseln
-1. den Branch löschen
+2. den Branch löschen
 
 zum Main wechseln: `git switch main`
 
