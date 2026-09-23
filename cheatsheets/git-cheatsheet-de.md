@@ -181,8 +181,8 @@ Das Subject einer Commit-Message sollten im Englischen den Imperativ benutzen
 
 ### Body
 
-Der Body einer Commit-Message sollte das Warum eines Commits beschreiben
-(fall nötig).
+Der Body einer Commit-Message sollte das Warum eines Commits beschreiben (fall
+nötig).
 
 Wenn ein Pull-Request ein Ticket schließt, sollte im Body
 `Fixes #<Ticketnummer>` stehen. Das sorgt dafür, dass beim Mergen des PRs das

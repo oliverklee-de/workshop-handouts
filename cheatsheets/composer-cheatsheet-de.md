@@ -23,7 +23,6 @@
 | Standardverzeichnis der installierten Abhängigkeiten | `vendor/`             |
 | Standardverzeichnis des Composer-Autoloaders         | `vendor/autoload.php` |
 
-
 ## Abhängigkeiten
 
 [Dokumentation von Requirement-Constraints](https://getcomposer.org/doc/articles/versions.md)
@@ -33,7 +32,6 @@
 | Abhängigkeit hinzufügen      | `composer require <Paketname>`       |
 | Dev-Abhängigkeit hinzufügen  | `composer require --dev <Paketname>` |
 | Abhängigkeiten aktualisieren | `composer update`                    |
-
 
 ## Globale Installation
 
@@ -54,4 +52,5 @@
 
 * **Wenn eine composer.lock vorhanden ist** ➡️ `composer install`
 * **Wenn keine composer.lock vorhanden ist** ➡️ `composer update`
-* **Wenn ein .ddev-Ordner vorhanden ist** ➡️ `ddev composer install` (oder update)
+* **Wenn ein .ddev-Ordner vorhanden ist** ➡️ `ddev composer install` (oder
+  update)

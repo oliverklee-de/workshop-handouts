@@ -138,8 +138,8 @@ This is an incomplete list of examples.
 * serving only alcoholic drinks at social events
 * publishing pictures of people without their consent
 * venues that are not wheelchair-friendly
-* sexist comments on twitter
-  ("maybe the ladies just have nothing to say at the conferences")
+* sexist comments on twitter ("maybe the ladies just have nothing to say at the
+  conferences")
 * speaking German by default at an international event
 * using "guys" to refer a mixed-gender group
 * event without childcare
@@ -162,8 +162,7 @@ This also is an incomplete list of examples.
 * having
   a [community/project code of conduct](https://contributor-covenant.org/)
 * having a [code of conduct for events](http://confcodeofconduct.com/),
-  put it on the conference website
-  **and enforce it**
+  put it on the conference website **and enforce it**
   ([FAQ](https://www.ashedryden.com/blog/codes-of-conduct-101-faq)
   ([another example](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
 * explain the code of conduct in the opening session

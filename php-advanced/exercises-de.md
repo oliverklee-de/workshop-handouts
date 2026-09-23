@@ -116,8 +116,8 @@ einiges über die Arbeit mit UTF-8 in PHP lernen.
 1. Schreibt ein Kommando `anagram:check`, das zwei Wörter erwartet und prüft,
    ob die beiden Wörter Anagramme voneinander sind (unabhängig von der Groß-
    und Kleinschreibung). "Leo" ist beispielsweise ein Anagramm von "Ole".
-1. Findet eine Liste aller Wörter eine Sprache als Textdatei im Netz
-   (de_DE, en_GB oder en_US oder auch eine andere Sprache) und legt sie im
+1. Findet eine Liste aller Wörter eine Sprache als Textdatei im Netz (de_DE,
+   en_GB oder en_US oder auch eine andere Sprache) und legt sie im
    Projekt ab.
 1. Schreibt ein Kommando `resources:read-words`, das alle Wörter aus der
    Datei ausliest und auf der Konsole ausgibt.
@@ -139,8 +139,8 @@ einiges über die Arbeit mit UTF-8 in PHP lernen.
 1. Setzt dieses Konzept um. Geht dabei kleine Schritte, sodass ihr sehr
    schnell immer wieder korrekt funktionierenden Code habt.
 
-Unter anderen solltet ihr dabei diese Klasse bzw. Methoden haben
-(alle innerhalb eures Project-Namespaces):
+Unter anderen solltet ihr dabei diese Klasse bzw. Methoden haben (alle innerhalb
+eures Project-Namespaces):
 
 - `Domain\Model\Word`
 - `Word::isPalindrome(): bool`
@@ -250,6 +250,6 @@ behebt.
 
 ## Low-level-PHP
 
-1. Baut `console` so um, dass ihr ein Array von Klassennamen habe
-   (mit `::class`), über die ihr iteriert, um die Kommandos zu instanziieren
+1. Baut `console` so um, dass ihr ein Array von Klassennamen habe (mit
+   `::class`), über die ihr iteriert, um die Kommandos zu instanziieren
    und der Applikation hinzuzufügen.
