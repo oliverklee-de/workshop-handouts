@@ -4,12 +4,14 @@ Dies sind die Handouts zu vielen meiner Workshops:
 
 * [Composer](composer) (DE)
 * [Diversity](diversity/README.md) (EN)
+* [Gewaltfreie Kommunikation (GfK)](gfk) (DE)
 * [Git](git) (DE)
-* [PHP (für Leute mit einiger Erfahrung)](php-advanced) (DE)
-* [Train the Trainer](train-the-trainer) (DE)
-* [Gewaltfreie Kommunikation](gfk) (DE)
 * [Konfliktmanagement](konflikte) (DE)
+* [Leadership](fuehrung) (DE)
 * [Motivation](motivation) (DE)
+* [PHP (für Leute mit einiger Erfahrung)](php-advanced) (DE)
+* [Psychologische Sicherheit](psychologische-sicherheit) (DE)
+* [Train the Trainer](train-the-trainer) (DE)
 
 Zusätzlich liegt hier noch:
 
